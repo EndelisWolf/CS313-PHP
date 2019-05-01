@@ -1,12 +1,17 @@
-function clicked() {
-    alert("Clicked!");
+// ta02.js
+function clickMe() {
+	alert("Clicked!");
 }
 
-function colors() {
-    var nColor = document.getElementById(newColor);
+function changeColor() {
+	var textbox_id = "txtColor";
+	var textbox = document.getElementById(textbox_id);
 
-    var div = document.getElementById(div1);
+	var div_id = "div1";
+	var div = document.getElementById(div_id);
 
-    var color = textbox.value;
-    div.style.backgroundColor = color;
+	// We should verify values here before we use them...
+	var color = textbox.value;
+	div.style.backgroundColor = color;
+
 }
