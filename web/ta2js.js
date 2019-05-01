@@ -1,6 +1,7 @@
 function clicked() {
     alert("Clicked!");
 }
+
 function colors() {
     var nColor = document.getElementById(newColor);
 
