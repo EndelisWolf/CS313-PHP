@@ -1,0 +1,18 @@
+.tempBold:hover {
+    font-weight: bold;
+}
+
+.divOne {
+    background-color: #0a8457;
+    font-size: 3.72;
+}
+
+.divTwo {
+    background-color: #840a51;
+    font-size: 4em;
+}
+
+.divThree {
+background-color: #0a4d84;
+font-size: 3em;
+}
