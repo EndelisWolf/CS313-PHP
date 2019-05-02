@@ -1,9 +1,9 @@
 body {
   margin: auto;
-  margin-left: 75%;
-  margin-right: 75%;  
+  margin-left: 25%;
+  margin-right: 25%;  
 }
 
-#doggo:hover {
-    color: red;
+#doggo {
+    visibility: hidden;
 }
