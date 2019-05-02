@@ -11,7 +11,7 @@
 <div>
     <?php
 
-    $welcome = date("mm/dd/yyyy hh:mm:ss");
+    $welcome = date("m/d/yy h:m:s");
 
     echo "<h1>Welcome to My Homepage! You arrived here at: $welcome </h1>"
 
