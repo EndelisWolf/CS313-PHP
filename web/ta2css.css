@@ -1,22 +1,18 @@
-/* ta02.css */
-
-.div-first {
-	background-color: #00BCD4;
-	font-size: 2em;
+.hBold:hover {
+    font-weight: bold;
 }
 
-.div-later {
-	font-size: 0.7em;
+.divOne {
+    background-color: #0a8457;
+    font-size: 3.72;
 }
 
-#div2 {
-	background-color: #4DD0E1;
+.divtwo {
+    background-color: #840a51;
+    font-size: 4em;
 }
 
 #div3 {
-	background-color: #B2EBF2;
-}
-
-.hover-bold:hover {
-	font-weight: bold;
+background-color: #0a4d84;
+font-size: 3em;
 }
