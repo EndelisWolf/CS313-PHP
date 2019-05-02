@@ -1,0 +1,9 @@
+body {
+  margin: auto;
+  margin-left: 75%;
+  margin-right: 75%;  
+}
+
+#doggo:hover {
+    color: red;
+}
