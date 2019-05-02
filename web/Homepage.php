@@ -9,6 +9,13 @@
     </script>
 </head>
 <div>
+    <?php
+
+    $welcome = date("mm/dd/yyyy hh:mm:ss");
+
+    echo "<h1>Welcome to My Homepage! You arrived here at: $welcome </h1>"
+
+    ?>
     <h1>Who am I?</h1>
     <p>
         First of all, it is nice you meet you. As for myself, I am Michael Wilkins. Currently, I am a junior majoring in
