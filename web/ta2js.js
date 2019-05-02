@@ -12,3 +12,9 @@ function colors() {
     var color = colorNew.value;
     div.style.backgroundColor = color;
 }
+
+$(document).ready(function(){
+    $("button").click(function(){
+      $("#div3").fadeToggle(5000);
+    });
+  });
