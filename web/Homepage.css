@@ -5,5 +5,5 @@ body {
 }
 
 #doggo {
-    visibility: hidden;
+    display: none;;
 }
