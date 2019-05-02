@@ -5,15 +5,15 @@
     <title>My Homepage</title>
     <link rel="stylesheet" type="text/css" href="Homepage.css">
     <script src="Homepage.js">
-        
+
     </script>
 </head>
 <div>
     <?php
 
-    $welcome = date("m/d/yy h:m:s");
+    $welcome = date("m/d/yy h:m:s")
 
-    echo "<h1>Welcome to My Homepage! You arrived here at: $welcome </h1>"
+    echo "<h1>Welcome to My Homepage! You arrived here at: $welcome <br>DISCLAIMER: It's this time somewhere I think.</h1>"
 
     ?>
     <h1>Who am I?</h1>
