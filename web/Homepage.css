@@ -4,6 +4,31 @@ body {
   margin-right: 25%;  
 }
 
+p {
+  font-size: 1.5em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+#hov1:hover {
+  color: purple;
+}
+
+#hov2:hover {
+  color: grey;
+}
+
+#hov3:hover {
+  color: yellowgreen;
+}
+
 #doggo {
-    display: none;;
+    display: none;
+}
+
+#game {
+  display: none;
+}
+
+#friend {
+  display: none;
 }
