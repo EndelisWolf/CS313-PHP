@@ -31,6 +31,7 @@
             <li onclick="clicked()">Dogs & Wolfs</li>
             <div><img id="doggo" src="./puppy3.jpg"></div>
             <li onclick="clicked2()">Gaming</li>
+            <div><img id="game" src="./game.jpg"></div>
             <li onclick="clicked3()">Interacting with friends</li>
         </ol>
         <br>
