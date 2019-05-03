@@ -14,7 +14,7 @@
     $welcome = date("m/d/Y");
     $time = date("h:i:sa");
 
-    echo "<h1>Welcome to my Homepage!<br> You arrived here on: $welcome<br>At: $time MDT</h1>";
+    echo "<h1 style='text-align: center'>Welcome to my Homepage!<br> You arrived here on: $welcome<br>At: $time MDT</h1>";
 
     ?>
     <h1>Who am I?</h1>
