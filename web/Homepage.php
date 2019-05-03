@@ -17,7 +17,7 @@
     echo "<h1 style='text-align: center'>Welcome to my Homepage!<br> You arrived here on: $welcome<br>At: $time MDT</h1>";
 
     ?>
-    <h1>Who am I?</h1>
+    <h1 class="headings">Who am I?</h1>
     <p>
         First of all, it is nice you meet you. As for myself, I am Michael Wilkins. Currently, I am a junior, majoring in
         Software Engineering. While I am not the most proficient in coding, I enjoy learning new languages, and often
@@ -25,7 +25,7 @@
     </p>
     <hr>
     <br>
-    <h2>My Interests</h2>
+    <h2 class="headings">My Interests</h2>
     <p>
         I promise my interests are somewhat interesting. At times. Though I will break into three main concepts:
         <br>
