@@ -10,7 +10,7 @@
 </head>
 <div>
     <?php
-    date_default_timezone_set(MDT)
+    //date_default_timezone_set(MDT)
     $welcome = date("m/d/yy h:m:s A");
 
     echo "<h1>Welcome to My Homepage! You arrived here at: $welcome <br>DISCLAIMER: It's this time un the near future.</h1>"
