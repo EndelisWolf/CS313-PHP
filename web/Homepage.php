@@ -10,7 +10,7 @@
 </head>
 <div>
     <?php
-    date_default_timezone_set("America/ Salt_Lake_City");
+    date_default_timezone_set("America/ Denver");
     $welcome = date("m/d/Y");
     $time = date("h:i:sa");
 
