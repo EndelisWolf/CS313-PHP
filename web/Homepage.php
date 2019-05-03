@@ -13,7 +13,7 @@
     //date_default_timezone_set(MDT)
     $welcome = date("m/d/yy h:m:s A");
 
-    echo "<h1>Welcome to My Homepage! You arrived here at: $welcome <br>DISCLAIMER: It's this time un the near future.</h1>"
+    echo "<h1>Welcome to My Homepage!<br> You arrived here at: $welcome</h1>"
 
     ?>
     <h1>Who am I?</h1>
