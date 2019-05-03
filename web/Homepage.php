@@ -12,8 +12,9 @@
     <?php
     //date_default_timezone_set("America/ Utah");
     $welcome = date("m/d/Y");
+    $time = date("h:i:sa");
 
-    echo "<h1>Welcome to My Homepage!<br> You arrived here at: $welcome</h1>"
+    echo "<h1>Welcome to my Homepage!<br> You arrived here on: $welcome</h1><br>A: $time MDT";
 
     ?>
     <h1>Who am I?</h1>
