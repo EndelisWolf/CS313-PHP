@@ -11,7 +11,7 @@
 <div>
     <?php
     //date_default_timezone_set("America/ Utah");
-    $welcome = date("m/d/yy h:m:s A");
+    $welcome = date("m/d/Y");
 
     echo "<h1>Welcome to My Homepage!<br> You arrived here at: $welcome</h1>"
 
