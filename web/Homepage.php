@@ -18,9 +18,9 @@
     ?>
     <h1>Who am I?</h1>
     <p>
-        First of all, it is nice you meet you. As for myself, I am Michael Wilkins. Currently, I am a junior majoring in
-        Software Engineering. While I am not the most proficient in coding, I enjoy learning new languages, and take
-        often a much longer time than necessary to try and understand the content.
+        First of all, it is nice you meet you. As for myself, I am Michael Wilkins. Currently, I am a junior, majoring in
+        Software Engineering. While I am not the most proficient in coding, I enjoy learning new languages, and often
+        take a much longer time than necessary to try and understand the content.
     </p>
     <br>
     <h2>My Interests</h2>
