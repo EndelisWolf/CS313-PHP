@@ -23,6 +23,7 @@
         Software Engineering. While I am not the most proficient in coding, I enjoy learning new languages, and often
         take a much longer time than necessary to try and understand the content.
     </p>
+    <hr>
     <br>
     <h2>My Interests</h2>
     <p>
@@ -32,7 +33,7 @@
             <li onclick="clicked()">Dogs & Wolfs</li>
             <div><img id="doggo" src="./puppy3.jpg"></div>
             <li onclick="clicked2()">Gaming</li>
-            <div><img id="game" src="./game.JPG"></div>
+            <div><img id="game resize" src="./game.JPG"></div>
             <li onclick="clicked3()">Interacting with friends</li>
             <div><img id="friend" src="./friends.JPG"></div>
         </ol>

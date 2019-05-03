@@ -38,3 +38,8 @@ p {
 #friend {
   display: none;
 }
+
+#resize {
+  width: 65%;
+  height: 75%
+}
