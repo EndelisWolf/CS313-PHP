@@ -10,11 +10,11 @@
 </head>
 <div>
     <?php
-    //date_default_timezone_set("America/ Utah");
+    date_default_timezone_set("America/ Salt_Lake_City");
     $welcome = date("m/d/Y");
     $time = date("h:i:sa");
 
-    echo "<h1>Welcome to my Homepage!<br> You arrived here on: $welcome</h1><br>A: $time MDT";
+    echo "<h1>Welcome to my Homepage!<br> You arrived here on: $welcome<br>At: $time MDT</h1>";
 
     ?>
     <h1>Who am I?</h1>
