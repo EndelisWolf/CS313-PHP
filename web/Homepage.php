@@ -33,7 +33,7 @@
             <li onclick="clicked2()">Gaming</li>
             <div><img id="game" src="./game.JPG"></div>
             <li onclick="clicked3()">Interacting with friends</li>
-            <div><img id="friends" src="./friendsJPG"></div>
+            <div><img id="friends" src="./friends.JPG"></div>
         </ol>
         <br>
         To expalin each briefly:
