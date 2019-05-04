@@ -18,6 +18,7 @@
 
     ?>
     <h1 class="headings">Who am I?</h1>
+    <p id="linked"><a href="https://fast-depths-13456.herokuapp.com/Assignments.html">Click here for the assignments page.</a></p>
     <p>
         First of all, it is nice you meet you. As for myself, I am Michael Wilkins. Currently, I am a junior, majoring in
         Software Engineering. While I am not the most proficient in coding, I enjoy learning new languages, and often

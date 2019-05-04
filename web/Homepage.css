@@ -39,6 +39,10 @@ p {
   display: none;
 }
 
+#linked {
+  font-size: .5em;
+}
+
 .resize {
   width: 65%;
   height: 75%

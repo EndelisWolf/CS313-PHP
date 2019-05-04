@@ -1,0 +1,19 @@
+body {
+    margin: auto;
+    margin-top: 35%;
+    text-align: center;
+    background-color: black;
+    color: red;
+}
+
+a:link {
+    color: silver
+}
+
+a:visited {
+    color: silver
+}
+
+a:hover {
+    color: purple
+}
