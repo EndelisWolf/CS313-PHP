@@ -120,14 +120,19 @@
 
 </form>
 
+
+<form method="POST" action="assign033.php">
+                            <input type="submit" value="Enter your shipping Address">
+</form>
+
 <?php
 
     echo "You have bought: <br>";
-    echo $_POST["EB"] . " Everything Bagel(s)<br> ";
-    echo $_POST["PB"] . " Plain Bagel(s)<br> ";
-    echo $_POST["CRB"] . " Cinnamon Raisin Bagel(s)<br> ";
-    echo $_POST["AB"] . " Asiago Bagel(s)<br> ";
-    echo $_POST["BB"] . " Blueberry Bagel(s)<br> ";
+    echo $_POST["EB"] . " <p>Everything Bagel(s)</p><br> ";
+    echo $_POST["PB"] . " <p>Plain Bagel(s)</p><br> ";
+    echo $_POST["CRB"] . " <p>Cinnamon Raisin Bagel(s)</p><br> ";
+    echo $_POST["AB"] . " <p>Asiago Bagel(s)</p><br> ";
+    echo $_POST["BB"] . " <p>Blueberry Bagel(s)</p><br> ";
 
     /*echo "You have bought: <br>";
     echo " Everything Bagel: " . $_POST["EB"] . "<br>";
