@@ -114,6 +114,12 @@
 
         <input type="submit" value="allBagel">
 
+        <?php
+
+        echo var_dump($_SESSION);
+
+        ?>
+
 </form>
 </body>
 

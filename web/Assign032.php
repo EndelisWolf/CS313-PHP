@@ -3,11 +3,11 @@
 
     session_start();
 
-    $_SESSION["Everday Bagel"] = 0;
-    $_SESSION["Plain Bagel"] = 1;
-    $_SESSION["Connamon Raisin Bagel"] = 2;
-    $_SESSION["Asiago Bagel"] = 3;
-    $_SESSION["Blueberry Bagel"] = 4;
+    $_SESSION["Everday Bagel"] = $_POST["EB"];
+    $_SESSION["Plain Bagel"] = $_POST["PB"];
+    $_SESSION["Cinnamon Raisin Bagel"] = $_POST["CRB"];
+    $_SESSION["Asiago Bagel"] = $_POST["AB"];
+    $_SESSION["Blueberry Bagel"] = $_POST["BB"];
 
 ?>
 <!DOCTYPE html>
