@@ -1,4 +1,9 @@
 <!--Browse Items Page-->
+<?php
+
+    session_start();
+
+?>
 <!DOCTYPE html>
 <html>
 
@@ -112,7 +117,7 @@
     </table>
 
 
-
+<input type="submit" value="allBagel">
 </form>
 </body>
 
