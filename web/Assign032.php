@@ -122,7 +122,7 @@
 
 
 <form method="POST" action="assign033.php">
-                            <input type="submit" value="Enter your shipping Address">
+    <input type="submit" value="Enter your shipping Address">
 </form>
 
 <?php

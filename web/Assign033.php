@@ -1,4 +1,5 @@
 <!--Checkout-->
+<!--View Cart-->
 <?php
 
     session_start();
@@ -8,8 +9,8 @@
     $_SESSION["Cinnamon Raisin Bagel"] = $_POST["CRB"];
     $_SESSION["Asiago Bagel"] = $_POST["AB"];
     $_SESSION["Blueberry Bagel"] = $_POST["BB"];
-?>
 
+?>
 <!DOCTYPE html>
 <html>
 
@@ -22,7 +23,9 @@
 </head>
 
 <body>
-<?php
+
+
+    <?php
 
     echo "You have bought: <br>";
     echo $_POST["EB"] . " <p>Everything Bagel(s)</p><br> ";
@@ -42,5 +45,7 @@
 
 ?>
 </body>
+
+
 
 </html>
