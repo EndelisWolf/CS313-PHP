@@ -123,11 +123,11 @@
 <?php
 
     echo "You have bought: <br>";
-    echo $_POST["EB"] . " Everything Bagel<br> ";
-    echo $_POST["PB"] . " Plain Bagel<br> ";
-    echo $_POST["CRB"] . " Cinnamon Raisin Bage<br> ";
-    echo $_POST["AB"] . " Asiago Bagel<br> ";
-    echo $_POST["BB"] . " Blueberry Bagel<br> ";
+    echo $_POST["EB"] . " Everything Bagel(s)<br> ";
+    echo $_POST["PB"] . " Plain Bagel(s)<br> ";
+    echo $_POST["CRB"] . " Cinnamon Raisin Bagel(s)<br> ";
+    echo $_POST["AB"] . " Asiago Bagel(s)<br> ";
+    echo $_POST["BB"] . " Blueberry Bagel(s)<br> ";
 
     /*echo "You have bought: <br>";
     echo " Everything Bagel: " . $_POST["EB"] . "<br>";
