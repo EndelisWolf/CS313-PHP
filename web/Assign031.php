@@ -16,7 +16,7 @@
     </script>
 </head>
 
-<form method="POST" action="Assign033.php">
+<form method="POST" action="Assign032.php">
 <body>
     <h1>Everyday Bagels</h1>
     <br>
@@ -118,6 +118,13 @@
 
 
 <input type="submit" value="allBagel">
+
+<?php
+
+    echo var_dump($_SESSION);
+
+?>
+
 </form>
 </body>
 

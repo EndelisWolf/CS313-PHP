@@ -3,6 +3,12 @@
 
     session_start();
 
+    $_SESSION["Everday Bagel"] = 0;
+    $_SESSION["Plain Bagel"] = 1;
+    $_SESSION["Connamon Raisin Bagel"] = 2;
+    $_SESSION["Asiago Bagel"] = 3;
+    $_SESSION["Blueberry Bagel"] = 4;
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -14,7 +20,7 @@
 
     </script>
 </head>
-<form method="Post"
+<form method="Post" action="Assign031.php">
 <body>
     <h1>Everyday Bagels</h1>
     <br>
