@@ -123,7 +123,7 @@
 <?php
 
     echo "You have bought: <br>";
-    echo " Everything Bagel: $_POST["EB"]<br>";
+    echo " Everything Bagel: " $_POST["EB"] "<br>";
     /*echo " Plain Bagel: " . $_POST["PB"] . ;
     echo " Cinnamon Raisin Bage: " . $_POST["CRB"] . "<br>";
     echo " Asiago Bagel: " . $_POST["AB"] . "<br>";
