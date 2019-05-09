@@ -127,7 +127,7 @@
     echo " Plain Bagel: " . $_POST["PB"] . ;
     echo " Cinnamon Raisin Bage: " . $_POST["CRB"] . "<br>";
     echo " Asiago Bagel: " . $_POST["AB"] . "<br>";
-    echo " Blueberry Bagel: ". $_POST["BB"] . "<br>";
+    echo " Blueberry Bagel: " . $_POST["BB"] . "<br>";
 
    // echo var_dump($_POST);
 
