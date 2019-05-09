@@ -28,7 +28,7 @@ function quantity5() {
     document.getElementById("total5").innerHTML = "$" + (amount5 * 1.50).toFixed(2);
 }
 
-function totalBagelF(amount1, amount2, amount3, amount4, amount5) {
+/*function totalBagelF(amount1, amount2, amount3, amount4, amount5) {
    
     document.getElementById(totalBagel).innterHTML = amount1 + amount2 + amount3 + amount4 + amount5;
-}
+}*/

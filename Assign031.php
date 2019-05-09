@@ -1,20 +1,23 @@
-<!--View Cart-->
+<!--Browse Items Page-->
 <?php
 
     session_start();
 
 ?>
+
 <!DOCTYPE html>
 <html>
 
 <head>
+        <meta charset="utf-8">
     <title>Assignments</title>
     <link rel="stylesheet" type="text/css" href="Assign031.css">
     <script src="Assign031.js">
 
     </script>
 </head>
-<form method="Post"
+
+<form method="POST" action="Assign032.php">
 <body>
     <h1>Everyday Bagels</h1>
     <br>
@@ -104,10 +107,19 @@
                 <p id="total5"></p>
             </th>
         </tr>
+        <tr>
+            <th>Total:</th>
+            <th></th>
+            <th><p id="totalBagel" onChange="totalBagelF()"></p></th>
+            <th><p id="totalCost()"></p></th>
+        </tr>
 
 
     </table>
 
+
+<input type="submit" value="allBagel">
+</form>
 </body>
 
 </html>
