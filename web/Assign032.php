@@ -121,7 +121,7 @@
 </form>
 
 
-<form method="POST" action="assign033.php">
+<form method="Post" action="assign033.php">
     <input type="submit" value="Enter your shipping Address">
 </form>
 
