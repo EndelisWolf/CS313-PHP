@@ -112,8 +112,14 @@
         </tr>
 
 
+
     </table>
 
+    <input type="submit" value="allBagel">
+
+    </form>
 </body>
+
+                 
 
 </html>
