@@ -115,13 +115,20 @@
 
     </table>
 
-    <input type="submit" value="allBagel">
+    <input type="submit" value="Start Over">
 
     </form>
 
     <?php
 
-    echo var_dump($_POST);
+    echo "You have bought:";
+    echo $_POST["EB"] . " " . Everything Bagel;
+    echo $_POST["PB"] . " " . Plain Bagel;
+    echo $_POST["CRB"] . " " . Cinnamon Raisin Bagel;
+    echo $_POST["AB"] . " " . Asiago Bagel;
+    echo $_POST["BB"] . " " . Blueberry Bagel;
+
+   // echo var_dump($_POST);
 
 ?>
 </body>
