@@ -38,7 +38,7 @@
 <label>State:</label>
 <input type="text" name="state" maxlength="12" size="15"><br>
 <label>Zipcode:</label>
-<input type="number" name="fName" maxlength="6" size="10">
+<input type="number" name="zCode" maxlength="6" size="10">
 </form>
 
 <button onclick="window.location.href = 'Assign032.php';">Back to 32</button>
