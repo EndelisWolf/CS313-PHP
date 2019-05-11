@@ -37,10 +37,10 @@
             <tr>
                 <th>Everything Bagel</th>
                 <th>$2.00</th>
-                <th><select name="EB" id="selectItem1" onchange="quantity1()">
+                <th><select name="EB" id="selectItem1" onchange="quantity1()">-->
                         <!--Reference for help: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_select_value2 -->
                         <!-- For refernece for on change: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onchange -->
-                        <option value="0">0</option>
+                       <!-- <option value="0">0</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
