@@ -23,7 +23,7 @@
 <form method="Post" action="Assign031.php">
 
     <body>
-        <h1>Everyday Bagels</h1>
+      <!--  <h1>Everyday Bagels</h1>
         <br>
         <h3>What would you like to buy?</h3>
         <br>
@@ -114,7 +114,7 @@
 
 
 
-        </table>
+        </table>-->
 
         <input type="submit" value="Start Over">
 
