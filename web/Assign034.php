@@ -3,7 +3,7 @@
 
     session_start();
     
-    $_SESSION["Everything Bagel"] = $_POST["EB"];
+    /*$_SESSION["Everything Bagel"] = $_POST["EB"];
     $_SESSION["Plain Bagel"] = $_POST["PB"];
     $_SESSION["Cinnamon Raisin Bagel"] = $_POST["CRB"];
     $_SESSION["Asiago Bagel"] = $_POST["AB"];
@@ -14,7 +14,7 @@
     $_SESSION["Street Address"] = $_POST["sAddress"];
     $_SESSION["City"] = $_POST["city"];
     $_SESSION["State"] = $_POST["state"];
-    $_SESSION["Zipcode"] = $_POST["zCode"];
+    $_SESSION["Zipcode"] = $_POST["zCode"];*/
 
 ?>
 

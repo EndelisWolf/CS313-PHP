@@ -3,7 +3,6 @@
 
     session_start();
 
-    
     $_SESSION["Everything Bagel"] = $_POST["EB"];
     $_SESSION["Plain Bagel"] = $_POST["PB"];
     $_SESSION["Cinnamon Raisin Bagel"] = $_POST["CRB"];
