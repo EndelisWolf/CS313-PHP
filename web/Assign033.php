@@ -27,7 +27,7 @@
 <form method="Form" action="Assign034.php">
 
 <label>First Name:</label>
-<input type="text" name="fName">
+<input type="text" name="fName" maxlength="25" size="20">
 <label>Last Name:</label>
 <input type="text" name="lName">
 <label>Stree Address:</label>
@@ -39,7 +39,7 @@
 <label>State:</label>
 <input type="text" name="state">
 <label>Zipcode:</label>
-<input type="number" name="zipCode">
+<input type="number" name="fName">
 </form>
 
 <button onclick="window.location.href = 'Assign032.php';">Back to 32</button>
