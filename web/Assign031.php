@@ -1,4 +1,3 @@
-<!--Browse Items Page-->
 <?php
 
     session_start();

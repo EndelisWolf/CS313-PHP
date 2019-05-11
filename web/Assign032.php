@@ -1,4 +1,3 @@
-<!--View Cart-->
 <?php
 
     session_start();
