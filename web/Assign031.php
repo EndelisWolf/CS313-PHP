@@ -16,7 +16,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Assignments</title>
+    <title>Assignments1</title>
     <link rel="stylesheet" type="text/css" href="Assign031.css">
     <script src="Assign031.js">
 

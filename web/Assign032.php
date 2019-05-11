@@ -14,7 +14,7 @@
 <html>
 
 <head>
-    <title>Assignments</title>
+    <title>Assignments2</title>
     <link rel="stylesheet" type="text/css" href="Assign031.css">
     <script src="Assign031.js">
 
