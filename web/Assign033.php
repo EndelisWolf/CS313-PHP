@@ -38,7 +38,6 @@
 
 <?php
 
-
 $_SESSION["First Name"] = $_POST["fname"];
 $_SESSION["Last Name"] = $_POST["lname"];
 $_SESSION["Street Address"] = $_POST["sAddress"];
