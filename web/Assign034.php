@@ -43,12 +43,12 @@
     echo $_POST["BB"] . " Blueberry Bagel(s)<br> ";
     echo "<br>";
     echo "Your order will be shipped to:<br>";
-    echo $_POST["fName"]/* . " " . $_POST["lName"] . "<br>"*/;
+    echo $_POST["fName"] . " " . $_POST["lName"] . "<br>";
     echo $_POST["sAddress"] . "<br>";
     echo $_POST["city"] . " " . $_POST["state"] . "<br>";
     echo $_POST["zCode"];
 
-
+    echo var_dump($_SESSION);
 ?>
 
 </html>
