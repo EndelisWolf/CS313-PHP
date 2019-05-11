@@ -4,7 +4,7 @@
     session_start();
 
     
-    $_SESSION["Everday Bagel"] = $_POST["EB"];
+    $_SESSION["Everything Bagel"] = $_POST["EB"];
     $_SESSION["Plain Bagel"] = $_POST["PB"];
     $_SESSION["Cinnamon Raisin Bagel"] = $_POST["CRB"];
     $_SESSION["Asiago Bagel"] = $_POST["AB"];
@@ -23,7 +23,7 @@
     </script>
 </head>
 
-<form method="POST" action="Assign032.php">
+<form method="Post" action="Assign032.php">
 
     <body>
         <h1>Everyday Bagels</h1>

@@ -3,7 +3,7 @@
 
     session_start();
 
-    $_SESSION["Everday Bagel"] = $_POST["EB"];
+    $_SESSION["Everything Bagel"] = $_POST["EB"];
     $_SESSION["Plain Bagel"] = $_POST["PB"];
     $_SESSION["Cinnamon Raisin Bagel"] = $_POST["CRB"];
     $_SESSION["Asiago Bagel"] = $_POST["AB"];
@@ -20,10 +20,10 @@
 
     </script>
 </head>
-<form method="Post" action="Assign031.php">
+<form method="Post" action="Assign033.php">
 
     <body>
-      <!--  <h1>Everyday Bagels</h1>
+        <!--  <h1>Everyday Bagels</h1>
         <br>
         <h3>What would you like to buy?</h3>
         <br>
@@ -38,9 +38,9 @@
                 <th>Everything Bagel</th>
                 <th>$2.00</th>
                 <th><select name="EB" id="selectItem1" onchange="quantity1()">-->
-                        <!--Reference for help: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_select_value2 -->
-                        <!-- For refernece for on change: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onchange -->
-                       <!-- <option value="0">0</option>
+        <!--Reference for help: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_select_value2 -->
+        <!-- For refernece for on change: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onchange -->
+        <!-- <option value="0">0</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -116,8 +116,12 @@
 
         </table>-->
 
-        <input type="submit" value="Start Over">
+        <input type="submit" value="Shipping Information">
 
+</form>
+
+<form method="Post" action="Assign031.php">
+    <input type="submit" value="Start Over">
 </form>
 <button onclick="window.location.href = 'Assign033.php';">Click Here</button>
 <?php

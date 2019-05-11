@@ -3,11 +3,18 @@
 
     session_start();
 
-   /* $_SESSION["Everday Bagel"] = $_POST["EB"];
+    $_SESSION["Everything Bagel"] = $_POST["EB"];
     $_SESSION["Plain Bagel"] = $_POST["PB"];
     $_SESSION["Cinnamon Raisin Bagel"] = $_POST["CRB"];
     $_SESSION["Asiago Bagel"] = $_POST["AB"];
-    $_SESSION["Blueberry Bagel"] = $_POST["BB"];*/
+    $_SESSION["Blueberry Bagel"] = $_POST["BB"];
+
+    $_SESSION["First Name"] = $_POST["fname"];
+    $_SESSION["Last Name"] = $_POST["lname"];
+    $_SESSION["Street Address"] = $_POST["sAddress"];
+    $_SESSION["City"] = $_POST["city"];
+    $_SESSION["State"] = $_POST["state"];
+    $_SESSION["Zipcode"] = $_POST["zCode"];
 
 ?>
 <!DOCTYPE html>
@@ -29,10 +36,8 @@
 <input type="text" name="fName" maxlength="25" size="15">
 <label>Last Name:</label>
 <input type="text" name="lName" maxlength="25" size="15"><br>
-<label>Stree Address:</label>
+<label>Street Address:</label>
 <input type="text" name="sAddress" maxlength="30" size="25"><br>
-<label>Apartment Number(if Applicable)</label>
-<input type="number" name="aptNum"  maxlength="6" size="10"><br>
 <label>City:</label>
 <input type="text" name="city"  maxlength="21" size="15">
 <label>State:</label>
