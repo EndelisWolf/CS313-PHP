@@ -1,5 +1,4 @@
 <?php
-
     session_start();
 
     $_SESSION["Everything Bagel"] = $_POST["EB"];

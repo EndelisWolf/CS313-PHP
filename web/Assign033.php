@@ -1,12 +1,5 @@
 <?php
-
-if(!isset($_SESSION)) {
     session_start();
-    echo "Information not there?";
-}
-else
-    echo "Info  there!";
-
 ?>
 <!DOCTYPE html>
 <html>
