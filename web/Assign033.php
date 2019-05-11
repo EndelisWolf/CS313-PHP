@@ -44,6 +44,8 @@
 <input type="text" name="state" maxlength="12" size="15"><br>
 <label>Zipcode:</label>
 <input type="number" name="zCode" maxlength="6" size="10">
+
+<input type="submit" value="Submit Order">
 </form>
 
 <form method="Post" action="Assign032.php">
