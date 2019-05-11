@@ -117,7 +117,7 @@
 
         </table>
 
-        <input type="submit" value="allBagel">
+        <input type="submit" value="View Cart">
 
 </form>
 </body>
