@@ -123,7 +123,7 @@
 <form method="Post" action="Assign031.php">
     <input type="submit" value="Start Over">
 </form>
-<button onclick="window.location.href = 'Assign033.php';">Click Here</button>
+
 <?php
 
     echo "You have bought: <br>";

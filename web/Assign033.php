@@ -46,7 +46,9 @@
 <input type="number" name="zCode" maxlength="6" size="10">
 </form>
 
-<button onclick="window.location.href = 'Assign032.php';">Back to 32</button>
+<form method="Post" action="Assign032.php">
+    <input type="submit" value="View Cart">
+</form>
    
 </body>
 
