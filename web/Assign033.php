@@ -39,6 +39,10 @@ $_SESSION["Zipcode"] = $_POST["zCode"];
 <input type="submit" value="Submit Order">
 </form>
 
+<?php
+    echo var_dump($_SESSION);
+?>
+
 <form method="Post" action="Assign032.php">
     <input type="submit" value="View Cart">
 </form>
