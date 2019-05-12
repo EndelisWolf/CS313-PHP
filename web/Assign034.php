@@ -18,6 +18,11 @@
 <br>
 
 <?php
+    $_SESSION["Everything Bagel"] = $_POST["EB"];
+    $_SESSION["Plain Bagel"] = $_POST["PB"];
+    $_SESSION["Cinnamon Raisin Bagel"] = $_POST["CRB"];
+    $_SESSION["Asiago Bagel"] = $_POST["AB"];
+    $_SESSION["Blueberry Bagel"] = $_POST["BB"];
 
     echo "You have successfully ordered:<br>";
     echo $_SESSION["Everything Bagel"] . " Everything Bagel(s)<br> ";
