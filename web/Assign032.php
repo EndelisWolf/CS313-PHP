@@ -13,19 +13,16 @@
 <head>
     <title>Assignments2</title>
     <link rel="stylesheet" type="text/css" href="Assign031.css">
-    
+
 </head>
-<form method="Post" action="Assign033.php">
+<a href="Assign033.php">
+    <input type="submit" value="Shipping Information">
+</a>
 
-    <body>
-     
-        <input type="submit" value="Shipping Information">
 
-</form>
-
-<form method="Post" action="Assign031.php">
+<a href="Assign031.php">
     <input type="submit" value="Start Over">
-</form>
+</a>
 
 <?php
 

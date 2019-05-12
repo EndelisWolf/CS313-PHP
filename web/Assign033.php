@@ -22,7 +22,8 @@
 </head>
 
 <body>
-    if($_SERVER["REQUEST_METHOD"]) == "Post") {
+    <?php
+    if($_SERVER["REQUEST_METHOD"] == "POST") {
         $fName = htmlspecialchars($_POST['fName']);
         $lName = htmlspecialchars($_POST['lName']);
         $email = htmlspecialchars($_POST['email']);
@@ -31,6 +32,7 @@
         $state = htmlspecialchars($_POST['state']);
         $zCode = htmlspecialchars($_POST['zCode']);
     }
+    ?>
 
     <h1>Where are we shipping?</h1>
     <form method="Post" action="Assign034.php">
