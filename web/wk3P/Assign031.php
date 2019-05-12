@@ -24,8 +24,7 @@
 
     <body>
         <h1 class="titleSize">Everyday Bagels</h1>
-        <br>
-        <h3>What would you like to buy?</h3>
+        <h1>What would you like to buy?</h1>
         <br>
         <table> <!--style="width: 40%" in case the CSS does not work.-->
             <tr>
