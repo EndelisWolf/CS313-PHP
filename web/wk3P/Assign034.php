@@ -8,7 +8,7 @@
 <link rel="stylesheet" type="text/css" href="Assign03.css">
 
 <body>
-    <h1>Order has been processed!</h1>
+    <h1 class="bigFont">Order has been processed!</h1>
     
     <?php
     echo "You have successfully ordered:<br>";

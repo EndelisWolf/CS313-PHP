@@ -15,3 +15,11 @@ table, th, td {
   .exMargin {
     margin-top: 1.5em;
   }
+
+.titleSize {
+  font-size: 5em;
+}
+
+  .bigFont {
+    font-size: 3em;
+  }

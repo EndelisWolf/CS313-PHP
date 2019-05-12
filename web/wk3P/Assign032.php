@@ -20,7 +20,7 @@
 
 <?php
 
-    echo "You have bought: <br>";
+    echo "<h2>You have bought:</h2> <br>";
     echo $_SESSION["Everything Bagel"] . " Everything Bagel(s)<br> ";
     echo $_POST["PB"] . " Plain Bagel(s)<br> ";
     echo $_POST["CRB"] . " Cinnamon Raisin Bagel(s)<br> ";

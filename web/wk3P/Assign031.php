@@ -23,7 +23,7 @@
 <form method="Post" action="Assign032.php">
 
     <body>
-        <h1>Everyday Bagels</h1>
+        <h1 class="titleSize">Everyday Bagels</h1>
         <br>
         <h3>What would you like to buy?</h3>
         <br>
@@ -112,7 +112,7 @@
                 </th>
             </tr>
         </table>
-
+<br>
         <input type="submit" value="View Cart">
 
 </form>
