@@ -16,6 +16,8 @@
 
 </head>
 
+<body class="exMargin">
+
 <?php
 
     echo "You have bought: <br>";

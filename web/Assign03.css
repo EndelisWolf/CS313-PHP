@@ -11,3 +11,7 @@ table, th, td {
     text-align: center;
     color: darkkhaki;
   }
+
+  .exMargin {
+    margin-top: 1.5em;
+  }
