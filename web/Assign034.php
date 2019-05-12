@@ -1,11 +1,11 @@
 <?php
     session_start();
 
-    $_SESSION["Everything Bagel"] = $_POST["EB"];
+  /*  $_SESSION["Everything Bagel"] = $_POST["EB"];
     $_SESSION["Plain Bagel"] = $_POST["PB"];
     $_SESSION["Cinnamon Raisin Bagel"] = $_POST["CRB"];
     $_SESSION["Asiago Bagel"] = $_POST["AB"];
-    $_SESSION["Blueberry Bagel"] = $_POST["BB"];
+    $_SESSION["Blueberry Bagel"] = $_POST["BB"];*/
 
 
 ?>
@@ -25,10 +25,10 @@
 <?php
     echo "You have successfully ordered:<br>";
     echo $_SESSION["Everything Bagel"] . " Everything Bagel(s)<br> ";
-    echo $_POST["PB"] . " Plain Bagel(s)<br> ";
-    echo $_POST["CRB"] . " Cinnamon Raisin Bagel(s)<br> ";
-    echo $_POST["AB"] . " Asiago Bagel(s)<br> ";
-    echo $_POST["BB"] . " Blueberry Bagel(s)<br> ";
+    echo $_SESSION["Plain Bagel"] . " Plain Bagel(s)<br> ";
+    echo $_SESSION["Cinnamon Raisin Bagel"] . " Cinnamon Raisin Bagel(s)<br> ";
+    echo $_SESSION["Asiago Bagel"] . " Asiago Bagel(s)<br> ";
+    echo $_SESSION["Blueberry Bagel"] . " Blueberry Bagel(s)<br> ";
     echo "<br>";
     echo "Your order will be shipped to:<br>";
     echo $_POST["fName"] . " " . $_POST["lName"] . "<br>";
