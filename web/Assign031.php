@@ -30,8 +30,8 @@
         <table> <!--style="width: 40%" in case the CSS does not work.-->
             <tr>
                 <th>Our Bagels</th>
-                <th>Bagel Options</th>
-                <th>Price Per Bagel</th>
+                <th>Price</th>
+                <th>Quantity</th>
                 <th>Cost</th>
             </tr>
             <tr>
