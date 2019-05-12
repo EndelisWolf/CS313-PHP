@@ -53,13 +53,11 @@
         <input type="text" name="zCode" value="<?php echo $zCode; ?>" maxlength="6" size="10"><br><br>
 
         <input type="submit" value="Submit Order">
-
-        
-    </form>
-
-    <a href="Assign032.php">
+        <a href="Assign032.php">
             <input type="button" value="Back to Cart">
     </a>
+     </form>
+    
 
 </body>
 
