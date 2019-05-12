@@ -40,17 +40,17 @@
         <label>First Name:</label>
         <input type="text" name="fName" value="<?php echo $fName; ?>" maxlength="25" size="15">
         <label>Last Name:</label>
-        <input type="text" name="lName" value="<?php echo $lName; ?> maxlength="25" size="15"><br>
+        <input type="text" name="lName" value="<?php echo $lName; ?>" maxlength="25" size="15"><br>
         <label>Email:</label>
-        <input type="text" name="email" value="<?php echo $email; ?> maxlength="25" size="15"><br>
+        <input type="text" name="email" value="<?php echo $email; ?>" maxlength="25" size="15"><br>
         <label>Street Address:</label>
-        <input type="text" name="sAddress" value="<?php echo $sAddress; ?> maxlength="30" size="25"><br>
+        <input type="text" name="sAddress" value="<?php echo $sAddress; ?>" maxlength="30" size="25"><br>
         <label>City:</label>
-        <input type="text" name="city" value="<?php echo $city; ?> maxlength="21" size="15">
+        <input type="text" name="city" value="<?php echo $city; ?>" maxlength="21" size="15">
         <label>State:</label>
-        <input type="text" name="state" value="<?php echo $state; ?> maxlength="12" size="15"><br>
+        <input type="text" name="state" value="<?php echo $state; ?>" maxlength="12" size="15"><br>
         <label>Zipcode:</label>
-        <input type="number" name="zCode" value="<?php echo $zCode; ?> maxlength="6" size="10">
+        <input type="number" name="zCode" value="<?php echo $zCode; ?>" maxlength="6" size="10">
 
         <input type="submit" value="Submit Order">
 
