@@ -14,7 +14,7 @@
 
 <body>
 <h1>Where are we shipping?</h1>
-<form method="Form" action="Assign034.php">
+<form method="Post" action="Assign034.php">
 
 <label>First Name:</label>
 <input type="text" name="fName" maxlength="25" size="15">
