@@ -31,6 +31,8 @@
     echo $_POST["CRB"] . " Cinnamon Raisin Bagel(s)<br> ";
     echo $_POST["AB"] . " Asiago Bagel(s)<br> ";
     echo $_POST["BB"] . " Blueberry Bagel(s)<br> ";
+
+    echo var_dump($_SESSION);
 ?>
 </body>
 
