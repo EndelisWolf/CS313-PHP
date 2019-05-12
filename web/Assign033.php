@@ -1,12 +1,15 @@
 <?php
     session_start();
-
-    $_SESSION["First Name"] = $_POST["fname"];
-    $_SESSION["Last Name"] = $_POST["lname"];
-    $_SESSION["Street Address"] = $_POST["sAddress"];
-    $_SESSION["City"] = $_POST["city"];
-    $_SESSION["State"] = $_POST["state"];
-    $_SESSION["Zipcode"] = $_POST["zCode"];
+?>
+<?php
+//referenced to team activity to understand this section and repair it
+    $fName = '';
+    $lName = '';
+    $email = '';
+    $sAddress = '';
+    $city = '';
+    $state = '';
+    $zCode = '';
 ?>
 <!DOCTYPE html>
 <html>
@@ -19,6 +22,16 @@
 </head>
 
 <body>
+    if($_SERVER["REQUEST_METHOD"]) == "Post") {
+        $fName = htmlspecialchars($_POST['fName']);
+        $lName = htmlspecialchars($_POST['lName']);
+        $email = htmlspecialchars($_POST['email']);
+        $sAddress = htmlspecialchars($_POST['sAddress']);
+        $city = htmlspecialchars($_POST['city']);
+        $state = htmlspecialchars($_POST['state']);
+        $zCode = htmlspecialchars($_POST['zCode']);
+    }
+
     <h1>Where are we shipping?</h1>
     <form method="Post" action="Assign034.php">
 
@@ -26,6 +39,8 @@
         <input type="text" name="fName" maxlength="25" size="15">
         <label>Last Name:</label>
         <input type="text" name="lName" maxlength="25" size="15"><br>
+        <label>Email:</label>
+        <input type="text" name="email" maxlength="25" size="15"><br>
         <label>Street Address:</label>
         <input type="text" name="sAddress" maxlength="30" size="25"><br>
         <label>City:</label>
@@ -36,23 +51,16 @@
         <input type="number" name="zCode" maxlength="6" size="10">
 
         <input type="submit" value="Submit Order">
+
+        <a href="Assign32.php">
+            <input type="button" value="Back to Cart">
+        </a>
     </form>
 
     <?php
 
-    echo "You have bought: <br>";
-    echo $_SESSION["Everything Bagel"] . " Everything Bagel(s)<br> ";
-    echo $_POST["PB"] . " Plain Bagel(s)<br> ";
-    echo $_POST["CRB"] . " Cinnamon Raisin Bagel(s)<br> ";
-    echo $_POST["AB"] . " Asiago Bagel(s)<br> ";
-    echo $_POST["BB"] . " Blueberry Bagel(s)<br> ";
-
     echo var_dump($_SESSION);
 ?>
-
-    <form method="Post" action="Assign032.php">
-        <input type="submit" value="View Cart">
-    </form>
 
 </body>
 
