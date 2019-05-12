@@ -54,10 +54,12 @@
 
         <input type="submit" value="Submit Order">
 
-        <a href="Assign32.php">
-            <input type="button" value="Back to Cart">
-        </a>
+        
     </form>
+
+    <a href="Assign32.php">
+            <input type="button" value="Back to Cart">
+    </a>
 
 </body>
 
