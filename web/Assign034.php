@@ -32,6 +32,7 @@
     echo "<br>";
     echo "Your order will be shipped to:<br>";
     echo $_POST["fName"] . " " . $_POST["lName"] . "<br>";
+    echo $_POST["email"] . "<br>";
     echo $_POST["sAddress"] . "<br>";
     echo $_POST["city"] . ", " . $_POST["state"] . " " . $_POST["zCode"];
 

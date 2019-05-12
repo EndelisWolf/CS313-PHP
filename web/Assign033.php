@@ -23,7 +23,7 @@
 
 <body>
     <?php
-    if($_SERVER["REQUEST_METHOD"] == "POST") {
+    if($_SERVER["REQUEST_METHOD"] == "Post") {
         $fName = htmlspecialchars($_POST['fName']);
         $lName = htmlspecialchars($_POST['lName']);
         $email = htmlspecialchars($_POST['email']);
@@ -58,11 +58,6 @@
             <input type="button" value="Back to Cart">
         </a>
     </form>
-
-    <?php
-
-    echo var_dump($_SESSION);
-?>
 
 </body>
 
