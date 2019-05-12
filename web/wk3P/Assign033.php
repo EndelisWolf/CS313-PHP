@@ -50,7 +50,7 @@
         <label>State:</label>
         <input type="text" name="state" value="<?php echo $state; ?>" maxlength="12" size="15"><br>
         <label>Zipcode:</label>
-        <input type="text" name="zCode" value="<?php echo $zCode; ?>" maxlength="6" size="10">
+        <input type="text" name="zCode" value="<?php echo $zCode; ?>" maxlength="6" size="10"><br><br>
 
         <input type="submit" value="Submit Order">
 
