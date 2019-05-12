@@ -27,7 +27,7 @@
     echo $_POST["AB"] . " Asiago Bagel(s)<br> ";
     echo $_POST["BB"] . " Blueberry Bagel(s)<br> ";
 ?>
-
+<br>
 <a href="Assign033.php">
     <input type="submit" value="Check Out">
 </a>
