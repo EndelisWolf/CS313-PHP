@@ -20,7 +20,7 @@
 <?php
 
     echo "You have successfully ordered:<br>";
-    echo $_SESSION["EB"] . " Everything Bagel(s)<br> ";
+    echo $_SESSION["Everything Bagel"] . " Everything Bagel(s)<br> ";
     echo $_POST["PB"] . " Plain Bagel(s)<br> ";
     echo $_POST["CRB"] . " Cinnamon Raisin Bagel(s)<br> ";
     echo $_POST["AB"] . " Asiago Bagel(s)<br> ";
