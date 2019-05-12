@@ -11,19 +11,10 @@
 <html>
 
 <head>
-    <title>Assignments2</title>
+    <title>Cart</title>
     <link rel="stylesheet" type="text/css" href="Assign031.css">
 
 </head>
-<a href="Assign033.php">
-    <input type="submit" value="Shipping Information">
-</a>
-
-
-<a href="Assign031.php">
-    <input type="submit" value="Start Over">
-</a>
-
 <?php
 
     echo "You have bought: <br>";
@@ -35,6 +26,15 @@
 
     echo var_dump($_SESSION);
 ?>
+
+<a href="Assign033.php">
+    <input type="submit" value="Shipping Information">
+</a>
+
+
+<a href="Assign031.php">
+    <input type="submit" value="Start Over">
+</a>
 </body>
 
 

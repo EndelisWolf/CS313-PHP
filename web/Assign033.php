@@ -15,7 +15,7 @@
 <html>
 
 <head>
-    <title>Assignments3</title>
+    <title>Check Out</title>
     <link rel="stylesheet" type="text/css" href="Assign031.css">
 
     
@@ -36,21 +36,21 @@
 
     <h1>Where are we shipping?</h1>
     <form method="Post" action="Assign034.php">
-
+<!--Used Team Activity 3 to figure out why special characters continued to show and edit email-->
         <label>First Name:</label>
-        <input type="text" name="fName" maxlength="25" size="15">
+        <input type="text" name="fName" value="<?php echo $fName; ?>" maxlength="25" size="15">
         <label>Last Name:</label>
-        <input type="text" name="lName" maxlength="25" size="15"><br>
+        <input type="text" name="lName" value="<?php echo $lName; ?> maxlength="25" size="15"><br>
         <label>Email:</label>
-        <input type="text" name="email" maxlength="25" size="15"><br>
+        <input type="text" name="email" value="<?php echo $email; ?> maxlength="25" size="15"><br>
         <label>Street Address:</label>
-        <input type="text" name="sAddress" maxlength="30" size="25"><br>
+        <input type="text" name="sAddress" value="<?php echo $sAddress; ?> maxlength="30" size="25"><br>
         <label>City:</label>
-        <input type="text" name="city" maxlength="21" size="15">
+        <input type="text" name="city" value="<?php echo $city; ?> maxlength="21" size="15">
         <label>State:</label>
-        <input type="text" name="state" maxlength="12" size="15"><br>
+        <input type="text" name="state" value="<?php echo $state; ?> maxlength="12" size="15"><br>
         <label>Zipcode:</label>
-        <input type="number" name="zCode" maxlength="6" size="10">
+        <input type="number" name="zCode" value="<?php echo $zCode; ?> maxlength="6" size="10">
 
         <input type="submit" value="Submit Order">
 

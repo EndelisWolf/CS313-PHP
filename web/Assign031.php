@@ -13,7 +13,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Assignments1</title>
+    <title>Select your Bagel</title>
     <link rel="stylesheet" type="text/css" href="Assign031.css">
     <script src="Assign031.js">
 
