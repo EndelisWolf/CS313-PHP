@@ -12,9 +12,10 @@
 
 <head>
     <title>Cart</title>
-    <link rel="stylesheet" type="text/css" href="Assign031.css">
+    <link rel="stylesheet" type="text/css" href="Assign03.css">
 
 </head>
+
 <?php
 
     echo "You have bought: <br>";
@@ -26,15 +27,15 @@
 ?>
 
 <a href="Assign033.php">
-    <input type="submit" value="Shipping Information">
+    <input type="submit" value="Check Out">
 </a>
+
 <br>
 <br>
+
 <a href="Assign031.php">
     <input type="submit" value="Start Over">
 </a>
 </body>
-
-
 
 </html>

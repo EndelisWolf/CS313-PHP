@@ -14,7 +14,7 @@
 <head>
     <meta charset="utf-8">
     <title>Select your Bagel</title>
-    <link rel="stylesheet" type="text/css" href="Assign031.css">
+    <link rel="stylesheet" type="text/css" href="Assign03.css">
     <script src="Assign031.js">
 
     </script>
@@ -111,9 +111,6 @@
                     <p id="total5"></p>
                 </th>
             </tr>
-
-
-
         </table>
 
         <input type="submit" value="View Cart">

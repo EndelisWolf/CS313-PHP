@@ -16,9 +16,9 @@
 
 <head>
     <title>Check Out</title>
-    <link rel="stylesheet" type="text/css" href="Assign031.css">
+    <link rel="stylesheet" type="text/css" href="Assign03.css">
 
-    
+
 </head>
 
 <body>
@@ -36,7 +36,7 @@
 
     <h1>Where are we shipping?</h1>
     <form method="Post" action="Assign034.php">
-<!--Used Team Activity 3 to figure out why special characters continued to show and edit email-->
+        <!--Used Team Activity 3 to figure out why special characters continued to show and edit email-->
         <label>First Name:</label>
         <input type="text" name="fName" value="<?php echo $fName; ?>" maxlength="25" size="15">
         <label>Last Name:</label>
