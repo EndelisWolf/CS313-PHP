@@ -1,11 +1,11 @@
 <?php
     session_start();
 
-    $_SESSION["Everything Bagel"] = $_POST["EB"];
+    /*$_SESSION["Everything Bagel"] = $_POST["EB"];
     $_SESSION["Plain Bagel"] = $_POST["PB"];
     $_SESSION["Cinnamon Raisin Bagel"] = $_POST["CRB"];
     $_SESSION["Asiago Bagel"] = $_POST["AB"];
-    $_SESSION["Blueberry Bagel"] = $_POST["BB"];
+    $_SESSION["Blueberry Bagel"] = $_POST["BB"];*/
 
     $_SESSION["First Name"] = $_POST["fname"];
     $_SESSION["Last Name"] = $_POST["lname"];
