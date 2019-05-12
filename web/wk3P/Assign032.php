@@ -31,10 +31,6 @@
 <a href="Assign033.php">
     <input type="submit" value="Check Out">
 </a>
-
-<br>
-<br>
-
 <a href="Assign031.php">
     <input type="submit" value="Start Over">
 </a>
