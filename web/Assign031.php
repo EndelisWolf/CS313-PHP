@@ -27,7 +27,7 @@
         <br>
         <h3>What would you like to buy?</h3>
         <br>
-        <table style="width: 40%">
+        <table> <!--style="width: 40%" in case the CSS does not work.-->
             <tr>
                 <th>Our Bagels</th>
                 <th>Bagel Options</th>
