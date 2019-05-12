@@ -1,17 +1,11 @@
 <?php
     session_start();
 
-    /*$_SESSION["Everything Bagel"] = $_POST["EB"];
-    $_SESSION["Plain Bagel"] = $_POST["PB"];
-    $_SESSION["Cinnamon Raisin Bagel"] = $_POST["CRB"];
-    $_SESSION["Asiago Bagel"] = $_POST["AB"];
-    $_SESSION["Blueberry Bagel"] = $_POST["BB"];*/
-
     $_SESSION["First Name"] = $_POST["fname"];
     $_SESSION["Last Name"] = $_POST["lname"];
     $_SESSION["Street Address"] = $_POST["sAddress"];
     $_SESSION["City"] = $_POST["city"];
-       $_SESSION["State"] = $_POST["state"];
+    $_SESSION["State"] = $_POST["state"];
     $_SESSION["Zipcode"] = $_POST["zCode"];
 ?>
 <!DOCTYPE html>
@@ -20,9 +14,8 @@
 <head>
     <title>Assignments3</title>
     <link rel="stylesheet" type="text/css" href="Assign031.css">
-    <script src="Assign031.js">
 
-    </script>
+    
 </head>
 
 <body>
@@ -46,6 +39,14 @@
     </form>
 
     <?php
+
+    echo "You have bought: <br>";
+    echo $_SESSION["Everything Bagel"] . " Everything Bagel(s)<br> ";
+    echo $_POST["PB"] . " Plain Bagel(s)<br> ";
+    echo $_POST["CRB"] . " Cinnamon Raisin Bagel(s)<br> ";
+    echo $_POST["AB"] . " Asiago Bagel(s)<br> ";
+    echo $_POST["BB"] . " Blueberry Bagel(s)<br> ";
+
     echo var_dump($_SESSION);
 ?>
 

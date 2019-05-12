@@ -13,9 +13,7 @@
 <head>
     <title>Assignments2</title>
     <link rel="stylesheet" type="text/css" href="Assign031.css">
-    <script src="Assign031.js">
-
-    </script>
+    
 </head>
 <form method="Post" action="Assign033.php">
 
