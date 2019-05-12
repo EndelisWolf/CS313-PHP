@@ -35,8 +35,6 @@
     echo $_POST["email"] . "<br>";
     echo $_POST["sAddress"] . "<br>";
     echo $_POST["city"] . ", " . $_POST["state"] . " " . $_POST["zCode"];
-
-    var_dump($_SESSION);
 ?>
 
 </html>

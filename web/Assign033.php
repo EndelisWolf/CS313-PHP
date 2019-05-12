@@ -42,7 +42,7 @@
         <label>Last Name:</label>
         <input type="text" name="lName" value="<?php echo $lName; ?>" maxlength="25" size="15"><br>
         <label>Email:</label>
-        <input type="text" name="email" value="<?php echo $email; ?>" maxlength="25" size="15"><br>
+        <input type="email" name="email" value="<?php echo $email; ?>" maxlength="25" size="15"><br>
         <label>Street Address:</label>
         <input type="text" name="sAddress" value="<?php echo $sAddress; ?>" maxlength="30" size="25"><br>
         <label>City:</label>
@@ -50,7 +50,7 @@
         <label>State:</label>
         <input type="text" name="state" value="<?php echo $state; ?>" maxlength="12" size="15"><br>
         <label>Zipcode:</label>
-        <input type="number" name="zCode" value="<?php echo $zCode; ?>" maxlength="6" size="10">
+        <input type="text" name="zCode" value="<?php echo $zCode; ?>" maxlength="6" size="10">
 
         <input type="submit" value="Submit Order">
 

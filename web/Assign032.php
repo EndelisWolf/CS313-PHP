@@ -23,15 +23,13 @@
     echo $_POST["CRB"] . " Cinnamon Raisin Bagel(s)<br> ";
     echo $_POST["AB"] . " Asiago Bagel(s)<br> ";
     echo $_POST["BB"] . " Blueberry Bagel(s)<br> ";
-
-    echo var_dump($_SESSION);
 ?>
 
 <a href="Assign033.php">
     <input type="submit" value="Shipping Information">
 </a>
-
-
+<br>
+<br>
 <a href="Assign031.php">
     <input type="submit" value="Start Over">
 </a>
