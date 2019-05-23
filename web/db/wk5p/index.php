@@ -27,7 +27,7 @@ session_start();
     echo "</seclect>";
     ?>
     <br>
-    <button type="submit">Find Note</button>
+    <input type="submit" value="Find Note">
          </form>
     
 
