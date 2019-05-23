@@ -15,10 +15,19 @@ session_start();
     </head>
  <body>
      <div>
-        <!-- <form action="" method="get">
+        <form action="display.php" method="get">
 
-         </form>-->
+         </form>
          <?php
+
+    echo "<select>";
+    foreach ($db->query('SELECT id FROM list') as $row)
+    {
+        echo "<option value='".$row['id']."'>".$row['id']."</option>";
+    }
+    echo "</seclect>";
+
+/* For reference
 
 foreach ($db->query('SELECT name, username, password FROM users') as $row)
 {
@@ -26,7 +35,7 @@ foreach ($db->query('SELECT name, username, password FROM users') as $row)
   echo 'user: ' . $row['username'];
   echo ' password: ' . $row['password'];
   echo '<br/>';
-}
+}*/
 
          ?>
      </div>
