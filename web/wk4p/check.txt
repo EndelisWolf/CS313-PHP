@@ -7,7 +7,7 @@ eg \d public.user
 \d+ public.user -- shows the details of the user table
 \q -- quite the application and go back to prompt
 
-CREATE TABLE public.user (
+CREATE TABLE public.users (
     id              SERIAL PRIMARY KEY,
     name            TEXT NOT NULL UNIQUE,
     username        TEXT NOT NULL UNIQUE,
@@ -23,6 +23,6 @@ CREATE TABLE public.list (
     id              SERIAL PRIMARY KEY,
     entry           Text NOT NULL,
     userId          int FOREIGN KEY REFERENCES public.user(id),
-    date            date,
+    date            date,  -- When is the assignment due?
     orderId         int FOREIGN KEY REFERENCES public.order(id)        
 );

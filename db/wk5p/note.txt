@@ -1,0 +1,17 @@
+INSERT INTO list (userId, date, entry)
+VALUES (1, 'Michael', '05-01-2019', 'Complete the creation of DB - CS313');
+INSERT INTO list (userId, date, entry)
+VALUES (2, 'Michael', '05-05-2019', 'Take Quiz for CS235');
+INSERT INTO list (userId, date, entry)
+VALUES (3, 'Michael', '05-06-2019', 'Ask the CIT270 professor about system security');
+INSERT INTO list (userId, date, entry)
+VALUES (4, 'Michael', '05-07-2019', 'Meet with 313 Tutor');
+INSERT INTO list (userId, date, entry)
+VALUES (5, 'Michael', '05-11-2019', 'Complete state examination for fitness - (Insert random fitness class)');
+INSERT INTO list (userId, date, entry)
+VALUES (6, 'Michael', '05-12-2019', 'Email project team for updates, then report to professor.');
+
+INSERT INTO users (name, username, password)
+VALUES ('Michael', 'Pancakes', 'maple');
+INSERT INTO users (name, username, password)
+VALUES ('David', 'Waffles', 'maple');
