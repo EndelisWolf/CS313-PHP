@@ -19,7 +19,7 @@ session_start();
         Choose your note:<br>
          <?php
 
-    echo "<select>";
+    echo "<select name='listSelect'>";
     foreach ($db->query('SELECT id FROM list') as $row)
     {
         echo "<option value='".$row['id']."'>".$row['id']."</option>";
@@ -31,7 +31,7 @@ session_start();
          </form>
     
 
-/* For reference
+<!--/* For reference
 
 foreach ($db->query('SELECT name, username, password FROM users') as $row)
 {
@@ -39,7 +39,7 @@ foreach ($db->query('SELECT name, username, password FROM users') as $row)
   echo 'user: ' . $row['username'];
   echo ' password: ' . $row['password'];
   echo '<br/>';
-}*/
+}*/-->
 
          
      </div>
