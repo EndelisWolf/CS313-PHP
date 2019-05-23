@@ -16,8 +16,7 @@ session_start();
  <body>
      <div>
         <form action="display.php" method="get">
-
-         </form>
+        Choose your note:<br>
          <?php
 
     echo "<select>";
@@ -26,6 +25,11 @@ session_start();
         echo "<option value='".$row['id']."'>".$row['id']."</option>";
     }
     echo "</seclect>";
+    ?>
+    <br>
+    <button type="submit">Find Note</button>
+         </form>
+    
 
 /* For reference
 
@@ -37,7 +41,7 @@ foreach ($db->query('SELECT name, username, password FROM users') as $row)
   echo '<br/>';
 }*/
 
-         ?>
+         
      </div>
  </body>
 
