@@ -17,9 +17,18 @@ session_start();
     {
         $todo = $_GET['listSelect'];
         $result = 'SELECT date, entry FROM list where id='.$todo;
-    }
 
-//q
+        $note = $db->query($result);
+        while ($row = $result->fetch(PDO::FETCH_ASSOC))
+        {
+            echo $row['date'] . " " . $row['entry'];
+        }
+        
+    }
+    else
+        {
+            echo 'Search could not be found.';
+        }
 ?>
 </body>
 
