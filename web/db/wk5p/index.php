@@ -11,7 +11,7 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
-
+<title>To-Do To-Day</title>
     </head>
  <body>
      <div>
@@ -26,6 +26,7 @@ session_start();
     }
     echo "</seclect>";
     ?>
+    <br>
     <br>
     <input type="submit" value="Find Note">
          </form>
