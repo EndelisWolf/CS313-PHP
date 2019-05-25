@@ -29,7 +29,7 @@ include 'db.php';
             echo 'Search could not be found.';
         }*/
 
-        foreach ($db->query('SELECT name, username, password FROM users') as $row)
+        foreach ($db->query('SELECT dueDate, noteEntry, password FROM list') as $row)
         {
             echo $row['dueDate'] . " " . $row['noteEntry'];
         }
