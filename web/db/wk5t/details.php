@@ -1,6 +1,6 @@
 <?php
  //Get the database connection file
- include 'db.php';
+ include '../../connections.php';
 
 
 ?>
