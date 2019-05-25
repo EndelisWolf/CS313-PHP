@@ -22,6 +22,7 @@ include 'db.php';
         {
             echo "Inside while";
             echo $row['dueDate'] . " " . $row['noteEntry'];
+            echo "Other side of rows!";
         }
         
     }
