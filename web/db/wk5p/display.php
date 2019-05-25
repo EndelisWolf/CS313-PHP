@@ -23,7 +23,8 @@ session_start();
         while ($row = $statement->fetch(PDO::FETCH_ASSOC))
         {
             echo "On" . " ". "<strong>" . $row['duedate'] . "</strong><br />" . "Your todo's for today are:" . "<br />";
-            echo $row['noteentry'];
+            echo $row['noteentry'] . "<br />";
+            echo "You have finished the " . $note . " on your todo list."
         }
         
     }
