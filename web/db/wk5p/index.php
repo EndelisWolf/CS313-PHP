@@ -10,15 +10,17 @@ session_start();
 
 <!DOCTYPE html>
 <html>
-    <head>
-<title>To-Do To-Day</title>
-    </head>
- <body>
-     <div>
-        <form action="display.php" method="GET">
-        Choose a task from the list provided:<br>
-         <?php
 
+<head>
+    <title>To-Do To-Day</title>
+    <link rel="stylesheet" type="text/css" href="todo.css">
+</head>
+
+<body>
+    <div>
+        <form action="display.php" method="GET">
+            Choose a task from the list provided:<br>
+    <?php
     echo "<select name='listSelect'>";
     foreach ($db->query('SELECT id FROM list') as $row)
     {
@@ -26,13 +28,13 @@ session_start();
     }
     echo "</seclect><br>";
     ?>
-    <br>
-    <br>
-    <input type="submit" value="Find Note">
-         </form>
-        
-     </div>
- </body>
+            <br>
+            <br>
+            <input type="submit" value="Find Note">
+        </form>
+
+    </div>
+</body>
 
 
 
