@@ -12,8 +12,8 @@ session_start();
     <link rel="stylesheet" type="text/css" href="todo.css">
 </head>
 
-<body>
-    <div class="generalFormat indextext sereneBGColor">
+<body class="sereneBGColor">
+    <div class="generalFormat indextext">
     <?php
     if (isset($_GET['listSelect']))
     {
