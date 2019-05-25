@@ -3,7 +3,7 @@ $GLOBALS['search_page']='index.php';
 $GLOBALS['details_page']='details.php';
 
     //Get the database connection file
-include '../../connections.php';
+include 'db.php';
 
 session_start(); 
 
