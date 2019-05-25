@@ -17,7 +17,7 @@ session_start();
     {
         $todo = $_GET['listSelect'];
         $result = 'SELECT date, entry FROM list where id='.$todo;
-
+        echo $result;
         $note = $db->query($result);
         while ($row = $result->fetch(PDO::FETCH_ASSOC))
         {
