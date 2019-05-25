@@ -17,7 +17,7 @@ session_start();
 </head>
 
 <body>
-    <div class="page1">
+    <div class="general">
         Daily School Todo List
         <form action="display.php" method="GET">
             <span class="indextext">Choose a task from the list provided:</span><br>

@@ -12,6 +12,7 @@ session_start();
 </head>
 
 <body>
+    <div class="general">
     <?php
     if (isset($_GET['listSelect']))
     {
@@ -20,7 +21,7 @@ session_start();
         $statement = $db->query("SELECT duedate, noteentry FROM list WHERE id= '$note'");
         while ($row = $statement->fetch(PDO::FETCH_ASSOC))
         {
-            echo "On" . " " . $row['duedate'] . " " . "You todo's are:" . "<br />";
+            echo "On" . " ". "<strong>" . $row['duedate'] . "</strong><br />" . "Your todo's are:" . "<br />";
             echo $row['noteentry'];
         }
         
@@ -30,6 +31,7 @@ session_start();
             echo 'Search could not be found.';
         }
 ?>
+    </div>
 </body>
 
 </html>
