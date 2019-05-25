@@ -15,9 +15,9 @@ include 'db.php';
     if (isset($_GET['listSelect']))
     {
         $note = $_GET['listSelect'];
-        $sql = 'SELECT dueDate, noteEntry FROM list WHERE id='.$note;
-        echo ($sql);
-        $statement = $db->query($sql);
+        /*$sql = 'SELECT dueDate, noteEntry FROM list WHERE id='.$note;
+        echo ($sql);*/
+        $statement = $db->query('SELECT dueDate, noteEntry FROM list WHERE id='.$note);
         while ($row = $statement->fetch(PDO::FETCH_ASSOC))
         {
             echo "Inside while<br />";
