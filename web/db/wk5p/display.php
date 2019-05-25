@@ -13,7 +13,7 @@ session_start();
 </head>
 
 <body>
-    <div class="generalFormat indextext">
+    <div class="generalFormat indextext sereneBGColor">
     <?php
     if (isset($_GET['listSelect']))
     {
