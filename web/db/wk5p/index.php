@@ -15,7 +15,8 @@ session_start();
     <title>To-Do To-Day</title>
     <link rel="stylesheet" type="text/css" href="todo.css">
 </head>
-
+<!-- Not adding the username and password feature in yet due to the supposed complexity of running storing it and loading it.
+     Feature to add additonal information, and delete tasks are to be stuidided and found out as well-->
 <body>
     <div class="generalFormat">
         <h1 class="softColor">Daily School Todo List</h1>
