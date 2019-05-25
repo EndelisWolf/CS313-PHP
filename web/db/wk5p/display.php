@@ -15,12 +15,12 @@ include 'db.php';
     if (isset($_GET['listSelect']))
     {
         $listItem = $_GET['listSelect'];
-        $result = 'SELECT * FROM list WHERE id='.$listItem; /*date, entry*/
+        $result = 'SELECT dueDate, noteEntry FROM list WHERE id='.$listItem; /*date, entry*/
         echo htmlspecialchars($result);
         $note = $db->query($result);
         while ($row = $result->fetch(PDO::FETCH_ASSOC))
         {
-            echo $row['date'] . " " . $row['entry'];
+            echo $row['dueDate'] . " " . $row['noteEntry'];
         }
         
     }
@@ -30,6 +30,5 @@ include 'db.php';
         }
 ?>
 </body>
-
 
 </html>

@@ -7,22 +7,22 @@ eg \d public.user
 \d+ public.user -- shows the details of the user table
 \q -- quite the application and go back to prompt
 
-CREATE TABLE public.users (
+CREATE TABLE users (
     id              SERIAL PRIMARY KEY,
     name            TEXT NOT NULL UNIQUE,
     username        TEXT NOT NULL UNIQUE,
     password        TEXT NOT NULL
 );
 
-CREATE TABLE public.order (
+CREATE TABLE order (
     id              SERIAL PRIMARY KEY,
     method          TEXT UNIQUE NOT NULL -- The method to organize the table.
 );
 
-CREATE TABLE public.list (
+CREATE TABLE list (
     id              SERIAL PRIMARY KEY,
-    entry           Text NOT NULL,
-    userId          int FOREIGN KEY REFERENCES public.user(id),
-    date            date,  -- When is the assignment due?
-    orderId         int FOREIGN KEY REFERENCES public.order(id)        
+    noteEntry       Text NOT NULL,
+    userId          int REFERENCES public.user(id),
+    dueDate         date,  -- When is the assignment due?
+    orderId         int REFERENCES public.order(id)        
 );
