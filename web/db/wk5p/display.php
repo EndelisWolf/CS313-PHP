@@ -13,7 +13,7 @@ session_start();
 </head>
 
 <body>
-    <div class="generalFormat">
+    <div class="generalFormat indextext">
     <?php
     if (isset($_GET['listSelect']))
     {
