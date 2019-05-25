@@ -1,12 +1,17 @@
-.general {
-    margin-top: 25%;
+.generalFormat {
+    margin-top: 75%;
     margin-bottom: 25%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 
 }
+
 .indextext {
     font-size: 1.5em;
-    color: blue;
+    
+}
+
+.softColor {
+    color: rgb(0, 110, 255);
 }

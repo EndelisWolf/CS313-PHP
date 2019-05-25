@@ -17,10 +17,10 @@ session_start();
 </head>
 
 <body>
-    <div class="general">
-        Daily School Todo List
+    <div class="generalFormat">
+        <h1 class="softColor">Daily School Todo List</h1>
         <form action="display.php" method="GET">
-            <span class="indextext">Choose a task from the list provided:</span><br>
+            <span class="indextext softColor">Choose a task from the list provided:</span><br>
     <?php
     echo "<select name='listSelect'>";
     foreach ($db->query('SELECT id FROM list') as $row)

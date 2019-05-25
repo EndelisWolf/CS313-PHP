@@ -12,7 +12,7 @@ session_start();
 </head>
 
 <body>
-    <div class="general">
+    <div class="generalFormat">
     <?php
     if (isset($_GET['listSelect']))
     {
