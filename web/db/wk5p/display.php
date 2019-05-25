@@ -20,6 +20,7 @@ include 'db.php';
         $statement = $db->query($sql);
         while ($row = $statement->fetch(PDO::FETCH_ASSOC))
         {
+            echo "Inside while";
             echo $row['dueDate'] . " " . $row['noteEntry'];
         }
         
