@@ -15,10 +15,10 @@ include 'db.php';
     if (isset($_GET['listSelect']))
     {
         $listItem = $_GET['listSelect'];
-        /*$result = 'SELECT dueDate, noteEntry FROM list WHERE id='.$listItem;
+        $result = 'SELECT dueDate, noteEntry FROM list WHERE id='.$listItem;
         echo ($result);
         $note = $db->query($result);
-        while ($row = $result->fetch(PDO::FETCH_ASSOC))
+        while ($row = $note->fetch(PDO::FETCH_ASSOC))
         {
             echo $row['dueDate'] . " " . $row['noteEntry'];
         }
@@ -27,14 +27,7 @@ include 'db.php';
     else
         {
             echo 'Search could not be found.';
-        }*/
-        echo "OUTSIDE FOREACH";
-        foreach ($db->query('SELECT dueDate, noteEntry FROM list WHERE id=') as $row)
-        {
-            echo "INSIDE FOREACH";
-            echo $row['dueDate'] . " " . $row['noteEntry'];
         }
-    }
 ?>
 </body>
 
