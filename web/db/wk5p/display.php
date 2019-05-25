@@ -9,6 +9,7 @@ session_start();
 
 <head>
     <title>To-Do To-Day Results</title>
+    <link rel="stylesheet" type="text/css" href="todo.css">
 </head>
 
 <body>
