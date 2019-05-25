@@ -22,7 +22,7 @@ session_start();
         $statement = $db->query("SELECT duedate, noteentry FROM list WHERE id= '$note'");
         while ($row = $statement->fetch(PDO::FETCH_ASSOC))
         {
-            echo "The selected Todo date is:" . " ". "<strong>" . $row['duedate'] . "</strong><br />" . "Here is the Todo you have selected:" . "<br /><br />";
+            echo "The selected task is to be completed on:" . " ". "<strong>" . $row['duedate'] . "</strong><br />" . "Here is the Todo you have selected:" . "<br /><br />";
             echo $row['noteentry'] . "<br /><br />";
             echo "You are currently viewing item #" . $note . " on your Todo list.";
         }
