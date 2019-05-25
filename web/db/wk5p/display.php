@@ -13,9 +13,9 @@ session_start();
 
 <body>
     <?php
-    if (isset($_POST['listSelect']))
+    if (isset($_GET['listSelect']))
     {
-        $note = $_POST['listSelect'];
+        $note = $_GET['listSelect'];
         /*$sql = 'SELECT dueDate, noteEntry FROM list WHERE id='.$note;
         echo ($sql);*/
         //Due to using options to grab data, id=.note is for selecting the proper number id from the choices availible
