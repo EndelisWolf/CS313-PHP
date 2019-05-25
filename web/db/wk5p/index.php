@@ -17,9 +17,9 @@ session_start();
 </head>
 
 <body>
-    <div>
+    <div class="page1">
         <form action="display.php" method="GET">
-            Choose a task from the list provided:<br>
+            <span class="indextext">Choose a task from the list provided:</span><br>
     <?php
     echo "<select name='listSelect'>";
     foreach ($db->query('SELECT id FROM list') as $row)
