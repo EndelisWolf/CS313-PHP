@@ -1,7 +1,12 @@
 .page1 {
-    margin: auto;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
 }
 .indextext {
-    font-size: 3.5em;
+    font-size: 1.5em;
     color: blue;
 }
