@@ -16,7 +16,7 @@ session_start();
  <body>
      <div>
         <form action="display.php" method="GET">
-        Choose your note:<br>
+        Choose a task from the list provided:<br>
          <?php
 
     echo "<select name='listSelect'>";
@@ -24,25 +24,13 @@ session_start();
     {
         echo "<option value='".$row['id']."'>".$row['id']."</option>";
     }
-    echo "</seclect>";
+    echo "</seclect><br>";
     ?>
     <br>
     <br>
     <input type="submit" value="Find Note">
          </form>
-    
-
-<!--/* For reference
-
-foreach ($db->query('SELECT name, username, password FROM users') as $row)
-{
-    echo 'name: ' . $row['name'];
-  echo 'user: ' . $row['username'];
-  echo ' password: ' . $row['password'];
-  echo '<br/>';
-}*/-->
-
-         
+        
      </div>
  </body>
 
