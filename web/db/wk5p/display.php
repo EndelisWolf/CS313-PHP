@@ -19,12 +19,12 @@ session_start();
         /*$sql = 'SELECT dueDate, noteEntry FROM list WHERE id='.$note;
         echo ($sql);*/
         //Due to using options to grab data, id=.note is for selecting the proper number id from the choices availible
-        $statement = $db->query("SELECT dueDate, noteEntry FROM list WHERE id= '$note'");
+        $statement = $db->query("SELECT duedate, noteentry FROM list WHERE id= '$note'");
         while ($row = $statement->fetch(PDO::FETCH_ASSOC))
         {
             //everything that is not row is properly outputing.
             echo "Inside while<br />";
-            echo $row['dueDate'] . " " . $row['noteEntry'] . "Rows should be here<br />";
+            echo $row['duedate'] . " " . $row['noteentry'] . "Rows should be here<br />";
             echo "Other side of rows!";
         }
         
