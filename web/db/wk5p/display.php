@@ -16,7 +16,7 @@ include 'db.php';
     {
         $listItem = $_GET['listSelect'];
         $result = 'SELECT date, entry FROM list WHERE id='.$listItem;
-        echo $result;
+        echo htmlspecialchars($result);
         $note = $db->query($result);
         while ($row = $result->fetch(PDO::FETCH_ASSOC))
         {
