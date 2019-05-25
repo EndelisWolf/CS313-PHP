@@ -18,7 +18,6 @@ include 'db.php';
         /*$sql = 'SELECT dueDate, noteEntry FROM list WHERE id='.$note;
         echo ($sql);*/
         $statement = $db->query('SELECT dueDate, noteEntry FROM list WHERE id='.$note);
-        echo ($statement);
         while ($row = $statement->fetch(PDO::FETCH_ASSOC))
         {
             echo "Inside while<br />";
