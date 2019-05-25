@@ -28,9 +28,10 @@ include 'db.php';
         {
             echo 'Search could not be found.';
         }*/
-
-        foreach ($db->query('SELECT dueDate, noteEntry, password FROM list') as $row)
+        echo "OUTSIDE FOREACH";
+        foreach ($db->query('SELECT dueDate, noteEntry FROM list WHERE id=') as $row)
         {
+            echo "INSIDE FOREACH";
             echo $row['dueDate'] . " " . $row['noteEntry'];
         }
     }
