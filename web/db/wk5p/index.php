@@ -15,7 +15,7 @@ session_start();
     </head>
  <body>
      <div>
-        <form action="display.php" method="GET">
+        <form action="display.php" method="POST">
         Choose your note:<br>
          <?php
 
