@@ -24,7 +24,7 @@ session_start();
         {
             echo "On" . " ". "<strong>" . $row['duedate'] . "</strong><br />" . "Your todo's for today are:" . "<br />";
             echo $row['noteentry'] . "<br />";
-            echo "You have finished the " . $note . " on your todo list."
+            echo "You have finished the " . $note . " on your todo list.";
         }
         
     }
