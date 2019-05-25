@@ -22,7 +22,6 @@ session_start();
         $statement = $db->query('SELECT dueDate, noteEntry FROM list WHERE id='.$note);
         while ($row = $statement->fetch(PDO::FETCH_ASSOC))
         {
-            echo ($statement);
             //everything that is not row is properly outputing.
             echo "Inside while<br />";
             echo $row['dueDate'] . " " . $row['noteEntry'] . "Rows should be here<br />";
