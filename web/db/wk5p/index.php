@@ -1,22 +1,17 @@
 <?php
-//$GLOBALS['']='';
-//$GLOBALS['']='';
-
 include 'db.php';
 
 session_start();
-
 ?>
 
 <!DOCTYPE html>
 <html>
 
 <head>
-    <title>To-Do To-Day</title>
+    <title>To Do Entries</title>
     <link rel="stylesheet" type="text/css" href="todo.css">
 </head>
-<!-- Not adding the username and password feature in yet due to the supposed complexity of running storing it and loading it.
-     Feature to add additonal information, and delete tasks are to be stuidided and found out as well-->
+<!-- The Add feature is not yet functional, that should be done in week 6 though.-->
 <body>
     <div class="generalFormat">
         <h1 class="softColor">Daily School Todo List</h1>
@@ -28,12 +23,13 @@ session_start();
     {
         echo "<option value='".$row['id']."'>".$row['id']."</option>";
     }
-    echo "</seclect><br>";
+    echo "</seclect><br /><br />";
     ?>
-            <br>
-            <br>
-            <input type="submit" value="Find Note">
+            <input type="submit" value="Find Note"> <!-- Add a view all option after you understand how to implement it -->
         </form>
+
+    <!--Note: Should the add note feature use a form or possibly added? Add that to your list of things to look up. Also check if its a feature added into the php instead for practical use.-->
+    <input type="submit" value="Add Note"> <!-- Reminder: This is not functional button yet>
 
     </div>
 </body>

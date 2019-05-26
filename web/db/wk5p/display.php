@@ -8,11 +8,12 @@ session_start();
 <html>
 
 <head>
-    <title>To-Do To-Day Results</title>
+    <title>To Do Results</title>
     <link rel="stylesheet" type="text/css" href="todo.css">
 </head>
 
-<body class="sereneBGColor">
+<body class="sereneBGColor"> 
+    <!-- To do: Do research to make edits if you need it in a form or not when tranversing information for an update.-->
     <div class="generalFormat indextext">
     <?php
     if (isset($_GET['listSelect']))
@@ -22,9 +23,9 @@ session_start();
         $statement = $db->query("SELECT duedate, noteentry FROM list WHERE id= '$note'");
         while ($row = $statement->fetch(PDO::FETCH_ASSOC))
         {
-            echo "The selected Todo is to be completed on:" . " ". "<strong>" . $row['duedate'] . "</strong><br />" . "Here is the Todo you have selected:" . "<br /><br />";
+            echo "The selected to do is to be completed on:" . " ". "<strong>" . $row['duedate'] . "</strong><br />" . "Here is the to do you have selected:" . "<br /><br />";
             echo $row['noteentry'] . "<br /><br />";
-            echo "You are currently viewing item #" . $note . " on your Todo list.";
+            echo "You are currently viewing item #" . $note . " on your to do list.";
         }
         
     }
