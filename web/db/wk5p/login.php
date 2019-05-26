@@ -14,7 +14,8 @@ session_start();
 
     <body>
     <div class="generalFormat">
-        <h2>Please enter your First Name, User Name, and Password</h2>
+        <h1>Welcome to the simpliest College To Do list!</h1>
+        <h3>Please enter your First Name, User Name, and Password</h3>
         <!-- a form should be here, but currently that won't be added due to additonal research you need before confirming that -->
         <!--<form action="index.php" method="POST"></form> Are two required for Creating an account and going to an account? Research that -->
             
