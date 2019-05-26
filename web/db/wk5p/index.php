@@ -12,7 +12,7 @@ session_start();
     <link rel="stylesheet" type="text/css" href="todo.css">
 </head>
 <!-- The Add feature is not yet functional, that should be done in week 6 though.-->
-<body>
+<body class="generalBG">
     <div class="generalFormat">
         <h1 class="softColor">Daily School Todo List</h1>
         <form action="display.php" method="GET">

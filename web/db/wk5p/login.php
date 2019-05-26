@@ -12,7 +12,7 @@ session_start();
     <link rel="stylesheet" type="text/css" href="todo.css">
     </head>
 
-    <body>
+    <body class="generalBG">
     <div class="generalFormat">
         <h1>Welcome to the simpliest College To Do list!</h1>
         <h3>Please enter your First Name, User Name, and Password</h3>

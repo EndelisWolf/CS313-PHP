@@ -7,6 +7,10 @@
 
 }
 
+generalBG {
+    background-color: slategray;
+}
+
 .indextext {
     font-size: 1.5em;
     
@@ -17,5 +21,5 @@
 }
 
 .sereneBGColor {
-    background-color: aquamarine;
+    background-color: navy;
 }
