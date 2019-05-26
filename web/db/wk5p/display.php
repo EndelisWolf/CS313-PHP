@@ -34,6 +34,7 @@ session_start();
             echo 'Search could not be found.';
         }
 ?>
+<br />
 <input type="submit" value="Edit Note"><input type="submit" value="Delete Note"><!-- Functionality will be learned and implemented with week 6-->
     </div>
 </body>
