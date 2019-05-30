@@ -6,8 +6,8 @@ session_start();
 
 <?php
  if (isset($_GET['listSelect'])) {       
-$duedate = test_input($_POST['duedate']);
-$noteentry = test_input($_POST['noteentry']);
+$duedate = ($_POST['duedate']);
+$noteentry = ($_POST['noteentry']);
 echo $duedate . " " . $noteentry;
  }
 
