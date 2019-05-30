@@ -4,15 +4,6 @@ include 'db.php';
 session_start();
 ?>
 
-<?php
- if (isset($_POST)) {       
-$duedate = ($_POST['duedate']);
-$noteentry = ($_POST['noteentry']);
-echo $duedate . " " . $noteentry;
- }
-
-?>
-
 <!doctype html>
 <html>
 
@@ -21,10 +12,10 @@ echo $duedate . " " . $noteentry;
     <link rel="stylesheet" type="text/css" href="todo.css">
 </head>
 
-<body class="sereneBGColor"> 
+<body class="sereneBGColor">
     <!-- To do: Do research to make edits if you need it in a form or not when tranversing information for an update.-->
     <div class="generalFormat indextext">
-    <?php
+        <?php
     if (isset($_GET['listSelect']))
     {
         $note = $_GET['listSelect'];
@@ -38,13 +29,25 @@ echo $duedate . " " . $noteentry;
         }
         
     }
+    else if (isset($_POST)) {       
+        $duedate = ($_POST['duedate']);
+        $noteentry = ($_POST['noteentry']);
+   
+        $statement = $db->query("INSERT INTO list(duedate, noteentry, usersId, orderId) VALUES ($duedate, $noteentry, 1, 1)");
+        $newid = $db->lastInsertId(); /*Hard coded the user id and order id for now*/
+        echo "The selected to do is to be completed on:" . " ". "<strong>" . $duedate . "</strong><br />" . "Here is the to do you have selected:" . "<br /><br />";
+            echo $noteentry . "<br /><br />";
+            echo "You are currently viewing item #" . $newid . " on your to do list.";
+    }
+   
     else
         {
             echo 'Search could not be found.';
         }
 ?>
-<br />
-<input type="submit" value="Edit Note"><input type="submit" value="Delete Note"><!-- Functionality will be learned and implemented with week 6-->
+        <br />
+        <input type="submit" value="Edit Note"><input type="submit" value="Delete Note">
+        <!-- Functionality will be learned and implemented with week 6-->
     </div>
 </body>
 
