@@ -41,7 +41,7 @@ session_start();
         <!-- Add a new note here will provide an easier output -->
         <form action="display.php" method="POST">
             <label>Completed By:</label><br />
-            <input type="text" name="dueDate" id="dueDate"><br />
+            <input type="date" name="duedate" id="duedate"><br />
             <label>What is to be done?</label><br />
             <input type="textarea" name="noteentry" id="noteentry"><br />
             <input type="submit" value="Add Note"><br />
