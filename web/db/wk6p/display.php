@@ -33,7 +33,7 @@ session_start();
         $duedate = ($_POST['duedate']);
         $noteentry = ($_POST['noteentry']);
    
-        $statement = $db->query("INSERT INTO list (duedate, noteentry, usersId, orderId) VALUES (to_date($duedate), $noteentry, 1, 1)");/*Hard coded the user id and order id for now*/
+        $statement = $db->query("INSERT INTO list (duedate, noteentry, usersId, orderId) VALUES (to_date($duedate), ' ".$noteentry."', 1, 1)");/*Hard coded the user id and order id for now*/
         $newid = $db->lastInsertId(); 
         echo "The selected to do is to be completed on:" . " ". "<strong>" . $duedate . "</strong><br />" . "Here is the to do you have selected:" . "<br /><br />";
             echo $noteentry . "<br /><br />";
