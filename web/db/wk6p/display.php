@@ -30,7 +30,7 @@ session_start();
         
     }
     else if (isset($_POST)) {       
-        $duedate = ($_POST['duedate']);
+        $duedate = strval(($_POST['duedate']));
         $noteentry = ($_POST['noteentry']);
    
         $statement = $db->query("INSERT INTO list (duedate, noteentry, usersId, orderId) VALUES (to_date($duedate), ' ".$noteentry."', 1, 1)");/*Hard coded the user id and order id for now*/
