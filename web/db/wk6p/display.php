@@ -4,6 +4,15 @@ include 'db.php';
 session_start();
 ?>
 
+<?php
+        
+if ($_SERVER["REQUEST_METHOD"] == "POST")
+$duedate = test_input($_POST['duedate']);
+$noteentry = test_input($_POST['noteentry']);
+
+echo $duedate . " " . $noteentry;
+?>
+
 <!doctype html>
 <html>
 
