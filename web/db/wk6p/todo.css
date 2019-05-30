@@ -1,0 +1,25 @@
+.generalFormat {
+    margin-top: 10%;
+    margin-bottom: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+.generalBG {
+    background-color: slategray;
+}
+
+.indextext {
+    font-size: 1.5em;
+    
+}
+
+.softColor {
+    color: rgb(0, 110, 255);
+}
+
+.sereneBGColor {
+    background-color: lightblue;
+}
