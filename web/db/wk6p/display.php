@@ -49,7 +49,7 @@ session_start();
             <input type="submit" value="Edit Note">
         </form>
         
-        <form action="deletenote.php" method="GET"
+        <form action="deletenote.php" method="GET">
         <?php
            // $db->query("DELETE FROM list WHERE id= '$note'");
         ?>
