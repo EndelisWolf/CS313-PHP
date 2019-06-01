@@ -23,9 +23,11 @@ session_start();
         $note = $_GET['listSelect'];
 
         $db->query("DELETE FROM list WHERE id= '$note'");
+    }
         ?>
             <input type="submit" value="Return to Selection page">
         </form>
+    
 
     </div>
 </body>
