@@ -17,6 +17,13 @@ session_start();
     <div class="generalFormat">
         Are you sure you want to delete your note?
         <form action="index.php">
+        <?php
+    if (isset($_GET['listSelect']))
+    {
+        $note = $_GET['listSelect'];
+
+        $db->query("DELETE FROM list WHERE id= '$note'");
+        ?>
             <input type="submit" value="Return to Selection page">
         </form>
 
