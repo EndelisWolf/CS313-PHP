@@ -49,9 +49,9 @@ session_start();
             <input type="submit" value="Edit Note">
         </form>
         
-        <form action="index.php" method="POST">
+        <form action="index.php">
         <?php
-            //$db->query("DELETE FROM list WHERE id= '$note'");
+            $db->query("DELETE FROM list WHERE id= '$note'");
         ?>
             <input type="submit" value="Delete Note">
             <!-- Functionality will be learned and implemented with week 6-->
