@@ -31,7 +31,7 @@ session_start();
         </form>
 
         <!--Note: Should the add note feature use a form or possibly added? Add that to your list of things to look up. Also check if its a feature added into the php instead for practical use.-->
-        <input type="submit" value="Add Note"><input type="submit" value="View All">
+        <input type="submit" value="View All">
         <!-- Reminder: These not functional buttons yet/ This will be seperate from find note until proper functionality is included -->
         <br />
         <br />

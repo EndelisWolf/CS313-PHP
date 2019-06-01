@@ -16,7 +16,7 @@ session_start();
 <body class="generalBG">
     <div class="generalFormat">
         NOTE SUSSESSFULLY DELETED
-        <form action="indexphp">
+        <form action="index.php">
             <input type="button" value="Return to Selection page">
         </form>
 
