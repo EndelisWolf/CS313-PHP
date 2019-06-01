@@ -51,7 +51,7 @@ session_start();
             <?php
             if (isset($_GET['listSelect']))
             {
-                $note = $_GET['listSelect']
+                $note = $_GET['listSelect'];
         $db->query("DELETE FROM list WHERE id= '$note'");
             }
 
