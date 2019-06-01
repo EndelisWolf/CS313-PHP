@@ -46,7 +46,7 @@ session_start();
 ?>
         <br />
         
-        <input type="button" onclick=location.hred='index.php'; value="Return to Selection Screen">
+        <input type="button" onclick=location.href='index.php'; value="Return to Selection Screen">
         
         
         <form action="index.php">
