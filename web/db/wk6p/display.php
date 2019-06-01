@@ -45,13 +45,13 @@ session_start();
         }
 ?>
         <br />
-        <form action="index.php">
-            <input type="submit" value="Edit Note">
-        </form>
         
-        <form action="deletenote.php" method="GET">
+        <input type="button" onclick=location.hred='index.php'; value="Return to Selection Screen">
+        
+        
+        <form action="index.php">
         <?php
-           // $db->query("DELETE FROM list WHERE id= '$note'");
+           $db->query("DELETE FROM list WHERE id= '$note'");
         ?>
             <input type="submit" value="Delete Note">
             <!-- Functionality will be learned and implemented with week 6-->

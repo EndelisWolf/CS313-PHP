@@ -15,7 +15,7 @@ session_start();
 
 <body class="generalBG">
     <div class="generalFormat">
-        NOTE SUSSESSFULLY DELETED
+        Are you sure you want to delete your note?
         <form action="index.php">
             <input type="button" value="Return to Selection page">
         </form>
