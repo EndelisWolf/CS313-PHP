@@ -1,0 +1,29 @@
+<?php
+include 'db.php';
+
+session_start();
+?>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>To Do Entries</title>
+    <link rel="stylesheet" type="text/css" href="todo.css">
+</head>
+<!-- The Add feature is not yet functional, that should be done in week 6 though.-->
+
+<body class="generalBG">
+    <div class="generalFormat">
+        NOTE SUSSESSFULLY DELETED
+        <form action="indexphp">
+            <input type="button" value="Return to Selection page">
+        </form>
+
+    </div>
+</body>
+
+
+
+
+</html>
