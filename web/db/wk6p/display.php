@@ -45,7 +45,10 @@ session_start();
         }
 ?>
         <br />
-        <input type="submit" value="Edit Note">
+        <form action="index.php">
+            <input type="submit" value="Edit Note">
+        </form>
+        
         <form action="index.php" method="POST">
         <?php
             $db->query("DELETE FROM list WHERE id= '$note'");
