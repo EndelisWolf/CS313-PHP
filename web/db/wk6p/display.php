@@ -49,7 +49,7 @@ session_start();
             <input type="submit" value="Return to Selection Page">
         </form>
         
-        <form action="index.php" method="POST">
+        <form>
         <?php
            $db->query("DELETE FROM list WHERE id= '$note'");
         ?>
