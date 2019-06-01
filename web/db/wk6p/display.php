@@ -46,8 +46,19 @@ session_start();
         }
 ?>
         <br />
-        <input type="submit" value="Edit Note"><input type="submit" value="Delete Note">
-        <!-- Functionality will be learned and implemented with week 6-->
+        <input type="submit" value="Edit Note">
+        <form action="index.php" method="POST">
+            <?php
+            if (isset($_GET['listSelect']))
+            {
+                $note = $_GET['listSelect']
+        $db->query("DELETE FROM list WHERE id= '$note'");
+            }
+
+        ?>
+            <input type="submit" value="Delete Note">
+            <!-- Functionality will be learned and implemented with week 6-->
+        </form>
     </div>
 </body>
 
