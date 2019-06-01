@@ -8,7 +8,7 @@ session_start();
 <html>
 
 <head>
-    <title>To Do Entries</title>
+    <title>Delete Confirmation</title>
     <link rel="stylesheet" type="text/css" href="todo.css">
 </head>
 <!-- The Add feature is not yet functional, that should be done in week 6 though.-->
@@ -17,7 +17,7 @@ session_start();
     <div class="generalFormat">
         Are you sure you want to delete your note?
         <form action="index.php">
-            <input type="button" value="Return to Selection page">
+            <input type="submit" value="Return to Selection page">
         </form>
 
     </div>
