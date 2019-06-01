@@ -32,7 +32,6 @@ session_start();
     else if (isset($_POST)) {       
         $duedate = ($_POST['duedate']);
         $noteentry = ($_POST['noteentry']);
-        echo $duedate;
         $statement = $db->query("INSERT INTO list (duedate, noteentry, usersId, orderId) VALUES ('".$duedate."', ' ".$noteentry."', 1, 1)");/*Hard coded the user id and order id for now*/
         $newid = $db->lastInsertId(); 
         echo "The selected to do is to be completed on:" . " ". "<strong>" . $duedate . "</strong><br />" . "Here is the to do you have selected:" . "<br /><br />";
@@ -48,13 +47,8 @@ session_start();
         <br />
         <input type="submit" value="Edit Note">
         <form action="index.php" method="POST">
-            <?php
-            if (isset($_GET['listSelect']))
-            {
-                $note = $_GET['listSelect'];
-        $db->query("DELETE FROM list WHERE id= '$note'");
-            }
-
+        <?php
+            $db->query("DELETE FROM list WHERE id= '$note'");
         ?>
             <input type="submit" value="Delete Note">
             <!-- Functionality will be learned and implemented with week 6-->
