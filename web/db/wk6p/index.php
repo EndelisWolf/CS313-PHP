@@ -9,7 +9,7 @@ session_start();
 if (isset($_GET['delete']))
 {
     $delete = $_GET['delete'];
-    $db->query("DELETE FROM list WHERE id= '$delete");
+    $db->query("DELETE FROM list WHERE id= '$delete'");
 }
 
 ?>
