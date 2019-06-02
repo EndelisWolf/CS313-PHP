@@ -43,6 +43,7 @@ session_start();
     else if (isset($_POST['update']))
     {
         $noteentry = ($_POST['noteentry']);
+        $update = $db->query("UPDATE list SET noteentry WHERE id= '$note'")
     }
     else
         {
@@ -55,11 +56,7 @@ session_start();
         </form>
         
         <form action="index.php?delete=<?php echo $note; ?>" method="POST">
-        <?php
-           //$db->query("DELETE FROM list WHERE id= '$note'");
-        ?>
             <input type="submit" value="Delete Note">
-            
         </form>
 <br />
         <form action="display.php?update=<?php echo $note; ?>" method="POST">
