@@ -43,7 +43,7 @@ session_start();
     else if (isset($_POST['update']))
     {
         $noteentry = ($_POST['noteentry']);
-        $update = $db->query("UPDATE list SET noteentry WHERE id= '$note'")
+        $update = $db->query("UPDATE list SET noteentry WHERE id= '$note'");
     }
     else
         {
