@@ -39,12 +39,15 @@ if (isset($_GET['delete'])) //if added to display.php it will always delete the 
             <input type="submit" value="Find Note">
             <!-- Add a view all option after you understand how to implement it -->
         </form>
+        <!--<form action="viewall.php" method="POST">
+            <?php
+                //($db->query('SELECT * FROM list'))
+            ?>
+            <input type="submit" value="View All">
+        </form>
+        <br />
+        <br />
 
-        <input type="submit" value="View All">
-        
-        <br />
-        <br />
- 
         <form action="display.php" method="POST">
             <label>Completed By:</label><br />
             <input type="date" name="duedate" id="duedate"><br />
@@ -55,4 +58,5 @@ if (isset($_GET['delete'])) //if added to display.php it will always delete the 
 
     </div>
 </body>
+
 </html>
