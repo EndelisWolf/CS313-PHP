@@ -44,7 +44,7 @@ if (isset($_GET['delete'])) //if added to display.php it will always delete the 
                 //($db->query('SELECT * FROM list'))
             ?>
             <input type="submit" value="View All">
-        </form>
+        </form>-->
         <br />
         <br />
 
