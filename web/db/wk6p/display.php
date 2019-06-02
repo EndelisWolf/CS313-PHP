@@ -65,7 +65,7 @@ session_start();
 <br />
         <form action="display.php?update=<?php echo $note; ?>" method="POST">
                 <p>Would you like to make some edits?</p>
-                <input type="textarea" rows="5" cols="50" name="noteentry" id="noteentry"><br />
+                <input type="text" name="noteentry" id="noteentry"><br />
                 <input type="submit" value="Edit Note">
 
         </form>

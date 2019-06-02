@@ -49,7 +49,7 @@ if (isset($_GET['delete'])) //if added to display.php it will always delete the 
             <label>Completed By:</label><br />
             <input type="date" name="duedate" id="duedate"><br />
             <label>What is to be done?</label><br />
-            <input type="textarea" name="noteentry" id="noteentry"><br />
+            <input type="text" name="noteentry" id="noteentry"><br />
             <input type="submit" value="Add Note"><br />
         </form>
 
