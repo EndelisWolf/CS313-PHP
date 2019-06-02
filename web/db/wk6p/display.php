@@ -40,7 +40,10 @@ session_start();
             echo $noteentry . "<br /><br />";
             echo "You are currently viewing item #" . $newid . " on your to do list.";
     }
-   
+    else if (isset($_POST['update']))
+    {
+        $noteentry = ($_POST['noteentry']);
+    }
     else
         {
             echo 'Search could not be found.';
@@ -57,6 +60,13 @@ session_start();
         ?>
             <input type="submit" value="Delete Note">
             
+        </form>
+<br />
+        <form action="display.php?update=<?php echo $note; ?>" method="POST">
+                <p>Would you like to make some edits?</p>
+                <input type="textarea" rows="5" cols="50" name="noteentry" id="noteentry"><br />
+                <input type="submit" value="Edit Note">
+
         </form>
     </div>
 </body>

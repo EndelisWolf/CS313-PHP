@@ -6,7 +6,7 @@ session_start();
 
 <?php
 
-if (isset($_GET['delete']))
+if (isset($_GET['delete'])) //if added to display.php it will always delete the entry because the website is reading it all as a html file as a whole and reads it all first. So by having it hear, it will only delte if I press delete.
 {
     $delete = $_GET['delete'];
     $db->query("DELETE FROM list WHERE id= '$delete'");
@@ -55,8 +55,4 @@ if (isset($_GET['delete']))
 
     </div>
 </body>
-
-
-
-
 </html>
