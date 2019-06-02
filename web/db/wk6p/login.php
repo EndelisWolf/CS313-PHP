@@ -3,6 +3,12 @@ include 'db.php';
 
 session_start();
 ?>
+
+<?php
+    $user = htmlspecialchars$_POST[];
+
+
+?>
 <!-- This should be used with the login table portion of my database 
      Reminder: Michael, remember to allow the entry fields be used for making an account or logging into one-->
 <!doctype html>
@@ -29,7 +35,17 @@ session_start();
             <span>Password: </span><input type="text" size="10" maxlength="16" minlength="3"
                 placeholder="3 - 16 Characters" required>
             <br />
-            <input type="submit" value="Create Account"><input type="submit" value="Login">
+            <input type="submit" value="Login">
+            <?php
+                    if ($db->query('SELECT password, username FROM users'))
+                    {
+                        
+                    }
+
+
+
+?>
+            <input type="submit" value="Create Account">
             <!-- The ability to move pages from here will begin once the login system is implemented -->
         </form>
 
