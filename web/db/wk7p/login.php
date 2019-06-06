@@ -8,10 +8,8 @@ session_start();
     //$user = htmlspecialchars$_POST[];
     if(isset($_POST['uName']))
     {
-       $req = $db->query("SELECT id, name, username, password FROM users WHERE username = '".$_POST['uName']."'");
+       $req = $db->query("SELECT id, name, username, password FROM users WHERE username = '".$_POST['uName']."' and password = '".$_POST['pwd']."' and name = '".$_POST['fName']."'");
        $logn = $req->fetch(PDO::FETCH_ASSOC);
-       echo count($logn);
-       var_dump($logn);
        if ($logn)
        {
            echo "Found you!";
