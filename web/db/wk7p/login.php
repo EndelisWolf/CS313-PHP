@@ -16,7 +16,7 @@ session_start();
        }
        else
        {
-            echo "Invalid entrie(s)!";
+            $wrong = "Invalid entrie(s)!";
        }
     }
 
@@ -53,7 +53,12 @@ session_start();
             <input type="submit" value="Create Account">
             <!-- The ability to move pages from here will begin once the login system is implemented -->
         </form>
-
+<?php
+    if(isset($wrong))
+    {
+        echo $wrong;
+    }
+?>
 
     </div>
 </body>
