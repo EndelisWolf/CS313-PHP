@@ -9,7 +9,7 @@ session_start();
     {
         //$duedate = ($_POST['duedate']);
         $noteentry = ($_POST['update']);
-        $update = $db->query("UPDATE list SET noteentry='$noteentry' WHERE id= $note");
+        $update = $db->query("UPDATE list SET noteentry='$noteentry' WHERE id= ".$_GET['listSelect']);
         /*echo "The selected to do is to be completed on:" . " ". "<strong>" . $duedate . "</strong><br />" . "Here is the to do you have selected:" . "<br /><br />";
             echo $noteentry . "<br /><br />";
             echo "You are currently viewing updated item #" . $note . " on your to do list.";*/
