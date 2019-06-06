@@ -5,7 +5,7 @@ session_start();
 ?>
 
 <?php
-    $user = htmlspecialchars$_POST[];
+    //$user = htmlspecialchars$_POST[];
 
 
 ?>
@@ -36,15 +36,7 @@ session_start();
                 placeholder="3 - 16 Characters" required>
             <br />
             <input type="submit" value="Login">
-            <?php
-                    if ($db->query('SELECT password, username FROM users'))
-                    {
-                        
-                    }
-
-
-
-?>
+            
             <input type="submit" value="Create Account">
             <!-- The ability to move pages from here will begin once the login system is implemented -->
         </form>
