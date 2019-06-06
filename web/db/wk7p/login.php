@@ -6,7 +6,7 @@ session_start();
 
 <?php
     //$user = htmlspecialchars$_POST[];
-    if(isset($_POST))
+    if(isset($_POST['uName']))
     {
        $req = $db->query("SELECT id, name, username, password FROM users WHERE username = ".$_POST['uName']);
        $logn = $req->fetch(PDO::FETCH_ASSOC);
