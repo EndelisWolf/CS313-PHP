@@ -1,0 +1,22 @@
+INSERT INTO list (usersId, dueDate, noteEntry, orderId)
+VALUES (1, '05-01-2019', 'Complete the creation of DB - CS313', 1);
+INSERT INTO list (usersId, dueDate, noteEntry, orderId)
+VALUES (1, '05-05-2019', 'Take Quiz for CS235', 2);
+INSERT INTO list (usersId, dueDate, noteEntry, orderId)
+VALUES (1, '05-06-2019', 'Ask the CIT270 professor about system security', 1);
+INSERT INTO list (usersId, dueDate, noteEntry, orderId)
+VALUES (2, '05-07-2019', 'Meet with 313 Tutor', 2);
+INSERT INTO list (usersId, dueDate, noteEntry, orderId)
+VALUES (2, '05-11-2019', 'Complete state examination for fitness - (Insert random fitness class)', 1);
+INSERT INTO list (usersId, dueDate, noteEntry, orderId)
+VALUES (2, '05-12-2019', 'Email project team for updates, then report to professor.', 2);
+
+INSERT INTO users (name, username, password)
+VALUES ('Michael', 'Pancakes', 'maple');
+INSERT INTO users (name, username, password)
+VALUES ('David', 'Waffles', 'maple');
+
+INSERT INTO note_order (method)
+VALUES ('Alphabetical');
+INSERT INTO note_order (method)
+VALUES ('Date');
