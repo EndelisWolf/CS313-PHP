@@ -64,7 +64,7 @@ session_start();
             <input type="submit" value="Delete Note">
         </form>
 <br />
-        <form action="display.php?update=<?php echo $note; ?>" method="POST">
+        <form action="display.php?listSelect=<?php echo $note; ?>" method="POST">
                 <p>Would you like to make some edits?</p>
                 <input type="text" name="update" id="noteentry"><br />
                 <input type="submit" value="Edit Note">
