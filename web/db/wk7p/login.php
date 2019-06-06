@@ -12,9 +12,13 @@ session_start();
        $logn = $req->fetch(PDO::FETCH_ASSOC);
        echo count($logn);
        var_dump($logn);
-       if (count($logn) < 1)
+       if ($logn)
        {
-           echo "Invalid entrie(s)!";
+           echo "Found you!";
+       }
+       else
+       {
+            echo "Invalid entrie(s)!";
        }
     }
 
