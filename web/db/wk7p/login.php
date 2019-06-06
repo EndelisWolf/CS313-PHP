@@ -11,6 +11,7 @@ session_start();
        $req = $db->query("SELECT id, name, username, password FROM users WHERE username = '".$_POST['uName']."'");
        $logn = $req->fetch(PDO::FETCH_ASSOC);
        echo count($logn);
+       var_dump($logn);
        if (count($logn) < 1)
        {
            echo "Invalid entrie(s)!";
