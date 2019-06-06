@@ -27,7 +27,15 @@ session_start();
             echo $row['noteentry'] . "<br /><br />";
             echo "You are currently viewing item #" . $note . " on your to do list.";
         }
-        
+        else if (isset($_POST['update']))
+        {
+            $duedate = ($_POST['duedate']);
+            $noteentry = ($_POST['noteentry']);
+            $update = $db->query("UPDATE list SET noteentry='$noteentry' WHERE id= '$note'");
+            echo "The selected to do is to be completed on:" . " ". "<strong>" . $duedate . "</strong><br />" . "Here is the to do you have selected:" . "<br /><br />";
+                echo $noteentry . "<br /><br />";
+                echo "You are currently viewing updated item #" . $note . " on your to do list.";
+        }    
     }
     else
         {
@@ -35,7 +43,7 @@ session_start();
         }
 ?>
 <br />
-<input type="submit" value="Edit Note"><input type="submit" value="Delete Note"><!-- Functionality will be learned and implemented with week 6-->
+<input type="submit" value="Edit Note"><input type="submit" value="Delete Note">
     </div>
 </body>
 

@@ -31,11 +31,11 @@ session_start();
         }
         
     }
-    else if (isset($_POST)) {       
+    /*else if (isset($_POST)) {       
         $duedate = ($_POST['duedate']);
         $noteentry = ($_POST['noteentry']);
         $statement = $db->query("INSERT INTO list (duedate, noteentry, usersId, orderId) VALUES ('".$duedate."', ' ".$noteentry."', 1, 1)");/*Hard coded the user id and order id for now*/
-        $newid = $db->lastInsertId(); 
+        /*$newid = $db->lastInsertId(); 
         echo "The selected to do is to be completed on:" . " ". "<strong>" . $duedate . "</strong><br />" . "Here is the to do you have selected:" . "<br /><br />";
             echo $noteentry . "<br /><br />";
             echo "You are currently viewing item #" . $newid . " on your to do list.";
@@ -48,7 +48,7 @@ session_start();
         echo "The selected to do is to be completed on:" . " ". "<strong>" . $duedate . "</strong><br />" . "Here is the to do you have selected:" . "<br /><br />";
             echo $noteentry . "<br /><br />";
             echo "You are currently viewing updated item #" . $note . " on your to do list.";
-    }
+    }*/
     else
         {
             echo 'Search could not be found.';
