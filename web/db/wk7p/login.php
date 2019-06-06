@@ -12,7 +12,7 @@ session_start();
        $logn = $req->fetch(PDO::FETCH_ASSOC);
        if ($logn)
        {
-           echo "Found you!";
+           header('Location: index.php');
        }
        else
        {
