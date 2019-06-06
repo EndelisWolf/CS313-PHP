@@ -30,9 +30,9 @@ if (isset($_GET['delete'])) //if added to display.php it will always delete the 
             <span class="indextext softColor">Choose a task from the list provided:</span><br>
             <?php
     echo "<select name='listSelect'>";
-    foreach ($db->query('SELECT duedate FROM list') as $row)
+    foreach ($db->query('SELECT id, duedate FROM list') as $row)
     {
-        echo "<option value='".$row['duedate']."'>".$row['duedate']."</option>";
+        echo "<option value='".$row['id']."'>".$row['duedate']."</option>";
     }
     echo "</seclect><br /><br />";
     ?>
