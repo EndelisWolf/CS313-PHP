@@ -31,24 +31,24 @@ session_start();
         }
         
     }
-    /*else if (isset($_POST)) {       
+    else if (isset($_POST)) {       
         $duedate = ($_POST['duedate']);
         $noteentry = ($_POST['noteentry']);
         $statement = $db->query("INSERT INTO list (duedate, noteentry, usersId, orderId) VALUES ('".$duedate."', ' ".$noteentry."', 1, 1)");/*Hard coded the user id and order id for now*/
-        /*$newid = $db->lastInsertId(); 
+        $newid = $db->lastInsertId(); 
         echo "The selected to do is to be completed on:" . " ". "<strong>" . $duedate . "</strong><br />" . "Here is the to do you have selected:" . "<br /><br />";
             echo $noteentry . "<br /><br />";
             echo "You are currently viewing item #" . $newid . " on your to do list.";
     }
     else if (isset($_POST['update']))
     {
-        $duedate = ($_POST['duedate']);
-        $noteentry = ($_POST['noteentry']);
-        $update = $db->query("UPDATE list SET noteentry='$noteentry' WHERE id= '$note'");
+        //$duedate = ($_POST['duedate']);
+        $noteentry = ($_POST['update']);
+        $update = $db->query("UPDATE list SET noteentry='$noteentry' WHERE id= $note");
         echo "The selected to do is to be completed on:" . " ". "<strong>" . $duedate . "</strong><br />" . "Here is the to do you have selected:" . "<br /><br />";
             echo $noteentry . "<br /><br />";
             echo "You are currently viewing updated item #" . $note . " on your to do list.";
-    }*/
+    }
     else
         {
             echo 'Search could not be found.';
@@ -65,7 +65,7 @@ session_start();
 <br />
         <form action="display.php?update=<?php echo $note; ?>" method="POST">
                 <p>Would you like to make some edits?</p>
-                <input type="text" name="noteentry" id="noteentry"><br />
+                <input type="text" name="update" id="noteentry"><br />
                 <input type="submit" value="Edit Note">
 
         </form>
