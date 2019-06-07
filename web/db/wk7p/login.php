@@ -22,7 +22,6 @@ session_start();
 
 <!doctype html>
 <html>
-
 <head>
     <title>User Login</title>
     <link rel="stylesheet" type="text/css" href="todo.css">
@@ -55,5 +54,4 @@ session_start();
 
     </div>
 </body>
-
 </html>
