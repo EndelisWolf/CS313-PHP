@@ -45,12 +45,10 @@ session_start();
                 placeholder="3 - 16 Characters" name="uName" required>
             <!-- Java script function sohuld be included here to make sure no two usernames can be the same -->
             <br />
-            <span>Password: </span><input type="text" size="10" maxlength="16" minlength="3"
+            <span>Password: </span><input type="password" size="10" maxlength="16" minlength="3"
                 placeholder="3 - 16 Characters" name="pwd" required>
             <br />
             <input type="submit" value="Login">
-            
-            <input type="submit" value="Create Account">
             <!-- The ability to move pages from here will begin once the login system is implemented -->
         </form>
 <?php
