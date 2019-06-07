@@ -33,13 +33,12 @@ session_start();
         <h3>Please enter your First Name, User Name, and Password</h3>
         
         <form action="login.php" method="POST">
-            <span>Name: </span><input type="text" size="10" maxlength="20" placeholder="First Name" name="fName" required>
+            <span class="sectionBold">Name: </span><input type="text" size="10" maxlength="20" placeholder="First Name" name="fName" required>
             <br />
-            <span>Username: </span><input type="text" size="10" maxlength="16" minlength="3"
+            <span class="sectionBold">Username: </span><input type="text" size="10" maxlength="16" minlength="3"
                 placeholder="3 - 16 Characters" name="uName" required>
-            
             <br />
-            <span>Password: </span><input type="password" size="10" maxlength="16" minlength="3"
+            <span class="sectionBold">Password: </span><input type="password" size="10" maxlength="16" minlength="3"
                 placeholder="3 - 16 Characters" name="pwd" required>
             <br />
             <input type="submit" value="Login">            
