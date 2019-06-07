@@ -37,7 +37,6 @@ session_start();
         {
             echo "The selected to do is to be completed on:" . " ". "<strong>" . $row['duedate'] . "</strong><br />" . "Here is the to do you have selected:" . "<br /><br />";
             echo $row['noteentry'] . "<br /><br />";
-            echo "You are currently viewing item #" . $note . " on your to do list.";
         }
         
     }
@@ -48,7 +47,6 @@ session_start();
         $newid = $db->lastInsertId(); 
         echo "The selected to do is to be completed on:" . " ". "<strong>" . $duedate . "</strong><br />" . "Here is the to do you have selected:" . "<br /><br />";
             echo $noteentry . "<br /><br />";
-            echo "You are currently viewing item #" . $newid . " on your to do list.";
     }
     else
         {
